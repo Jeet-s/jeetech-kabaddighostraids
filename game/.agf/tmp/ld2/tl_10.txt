@@ -1,0 +1,2 @@
+L10 g=0.30 s=0.11 w=1 casual 85% mid 80% (aim 86%) skilled 85%
+L10 g=0.30 s=0.11 w=1 casual 85% mid 80% (aim 86%) skilled 85%

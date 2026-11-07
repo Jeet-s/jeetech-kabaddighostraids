@@ -1,0 +1,2 @@
+L41 x=0 g=1.00 s=0.10 casual 67 mid 60 skilled 89
+L41 x=0 g=1.00 s=0.10 casual 60 mid 62 skilled 90

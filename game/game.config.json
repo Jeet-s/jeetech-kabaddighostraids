@@ -1,0 +1,17 @@
+{
+  "title": "Kabaddi Ghost Raids: Raid League",
+  "package": "com.jeetech.kabaddighostraids",
+  "coreMechanic": "
+Micro-loop (30-60 s): Read the formation, then drag a raid path and pick a move. Touch defenders, return across the midline, and the referee panel shows the points. Then switch sides and defend with timed tackles. In the Ghost mode, the raid is recorded as a compact input trace (path points, move calls, timings).
+
+Session loop (5-8 min): Play a Quick Match, a Tournament round or a campaign Raid Trial. Earn coins, Chant Tokens, form XP and trophies. Do the daily Ghost Challenge, set the defense Ghost Gate, and collect the ghost-raid results from friends and ladder players, who attacked your gate while you were away.
+
+Meta loop (daily/weekly): Build the squad through the auction and the team-builder, upgrade player skills and stamina, and unlock jerseys, mat designs and chants. Climb the weekly ladder under the weekly formation theme. Win a Tournament to unlock a Championship. Complete season cups and fill the Kit Album.
+
+Async design: ghosts are deterministic replays of an input trace resolved by a shared simulation, so there is no network lag during play. Online head-to-head quick match is turn-based (raid, then defend) with 20 s turns. Every online mode has an AI fallback.
+",
+  "screens": ["Home (title)", "Raid Trials map", "Matches hub (Quick Match, Tournament, Championship, Daily Ghost, Online Raid Race)", "Match (raid / defence / struggle / DRS / auction)", "Trial briefing", "Win", "Fail", "Kit Album", "Shop", "Settings", "Daily reward"],
+  "monetization": { "rewardedAds": true, "interstitials": true, "removeAdsIap": true },
+  "analyticsEvents": ["level_start", "level_complete", "level_fail"],
+  "_note": "Filled by the Claude Code builder from the GDD + asset manifest."
+}

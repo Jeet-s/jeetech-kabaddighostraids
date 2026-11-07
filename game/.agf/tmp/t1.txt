@@ -1,0 +1,2 @@
+L59 g=1.00 s=0.67 w=1 casual 49% mid 48% (aim 52%) skilled 54%
+L59 g=1.00 s=0.67 w=1 casual 49% mid 48% (aim 52%) skilled 54%

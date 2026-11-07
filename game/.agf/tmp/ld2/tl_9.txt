@@ -1,0 +1,2 @@
+L9 g=0.60 s=0.11 w=1 casual 89% mid 88% (aim 88%) skilled 91%
+L9 g=0.60 s=0.11 w=1 casual 89% mid 88% (aim 88%) skilled 91%

@@ -1,0 +1,2 @@
+L58 g=1.00 s=0.54 w=1 casual 61% mid 70% (aim 60%) skilled 85%
+L58 g=1.00 s=0.54 w=1 casual 61% mid 70% (aim 60%) skilled 85%

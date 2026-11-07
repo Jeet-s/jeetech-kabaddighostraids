@@ -1,0 +1,2 @@
+L25 g=1.00 s=0.45 w=1 casual 74% mid 84% (aim 76%) skilled 83%
+L25 g=1.00 s=0.45 w=1 casual 74% mid 84% (aim 76%) skilled 83%

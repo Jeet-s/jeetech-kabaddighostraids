@@ -1,0 +1,5 @@
+L16 g=0.70 s=0.63 w=1 casual 73% (aim 72%) skilled 85%
+L20 g=0.70 s=0.68 w=1 casual 58% (aim 56%) skilled 85%
+L22 g=0.81 s=0.69 w=1 casual 71% (aim 62%) skilled 89%
+L24 g=0.73 s=- w=1 casual 87% (aim 74%) skilled 97%
+L26 g=1.00 s=0.63 w=1 casual 91% (aim 72%) skilled 99%

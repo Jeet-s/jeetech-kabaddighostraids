@@ -1,0 +1,11 @@
+{
+  "_note": "Store screenshot scenes. Each id is opened with <scheme>://shot/<id> and captured on an emulator (src/screenshots.tsx renders real screens in real engine states). 'home' is the title screen.",
+  "scenes": [
+    { "id": "home", "caption": "Real kabaddi rules, real raids" },
+    { "id": "raid", "caption": "Chain touches into a Super Raid" },
+    { "id": "defend", "caption": "Pick your tackler, time the chain" },
+    { "id": "auction", "caption": "Build your squad at auction" },
+    { "id": "map", "caption": "66 trials across 6 chapters" },
+    { "id": "superraid", "caption": "Referee calls every point right" }
+  ]
+}

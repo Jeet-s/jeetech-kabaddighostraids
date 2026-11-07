@@ -1,0 +1,24 @@
+# Store facts — one line per player-facing system, with real numbers and the file that implements it
+
+- Campaign: 66 handcrafted Raid Trials in 6 chapters (Village Mat, District Cup, State League, Auction Season, Continental Cup, World Championship), 11 per chapter, each chapter ends in a crowned Full Match boss; campaign map screen — src/game/units.ts (UNITS, CHAPTERS), src/screens/LevelsScreen.tsx
+- Stars: 3 per trial (win + 2 trial goals shown on the briefing and the win card) — src/game/engine.ts (stars, starMet), src/screens/match/Overlays.tsx (BriefingPopup)
+- Rules: touch points, bonus point only with 6+ defenders, tackle point, Super Tackle (+2 with 3 or fewer defenders), Super Raid (3+ touches), all-out +2 with revival one per point, Do-or-Die on the 3rd straight empty raid, 30 s raid clock, 20-minute halves (Blitz 10) — src/game/rules.ts
+- Referee panel: after every raid the referee lists the events (touch, bonus, tackle, super raid/tackle, all-out, revival, empty raid, do-or-die) and the scoreboard adds the same events — src/screens/match/Overlays.tsx (RefereePanel), src/game/rules.ts (scoreRaid)
+- Raid moves: Hand Touch, Toe Touch, Backward Kick, bonus hop, walk / Dash / Dubki home, struggle pull-away and Escape lunge; every choice shows its real risk % — src/game/engine.ts, src/screens/GameScreen.tsx
+- Defence moves: Ankle Hold, Thigh Hold, Rush, Chain Tackle (2 adjacent defenders), Block, Stay Back; tap any defender to select/switch him; grip % shown per move — src/game/engine.ts, src/screens/GameScreen.tsx
+- Struggle mini-game when held (pull away or lunge for the midline), DRS review overlay for close calls (trials 50, 53, 55, 62, 65, 66) — src/screens/match/Overlays.tsx
+- CPU opponents: Easy / Medium / Hard raiders that raid every possession (validate: Easy scores on ~47% of raids, Hard wins ≥ 40% vs a mid-skill player) — src/game/engine.ts, scripts/validate.ts
+- Quick Match vs CPU: Full 2x20 or Blitz 2x10 on Easy / Medium / Hard, open from the first launch — src/screens/ModesScreen.tsx, src/game/units.ts (MODES)
+- Tournament (3 rounds: Quarter-final, Semi-final, Final; 400 coins + 3 Chant Tokens) unlocks after 1 completed match, lock card "Complete 1 match (0/1)"; Championship (3 rounds, 900 coins + 6 tokens) unlocks after a Tournament win, "Win 1 Tournament (0/1)" — src/game/meta.ts (CUPS, gates), src/screens/ModesScreen.tsx
+- Daily Ghost Challenge: beat a recorded friend's ghost raid score once a day (150 coins + 2 tokens), opens after Trial 5 — src/game/meta.ts, src/screens/ModesScreen.tsx
+- Online Raid Race: quick match or a friend room by 6-character code; both players play the same seeded match vs the CPU and see each other's live score; 8 fixed emotes, no chat; an AI rival when nobody is found or offline — src/screens/ModesScreen.tsx, src/modules/multiplayer.ts
+- Auction: bid with a purse against AI franchises for Raiders, Corners, Covers and Anchors with visible stats and market estimates (trials 34, 38, 41, 42, 44), in-game currency only — src/screens/match/Overlays.tsx (AuctionPanel), src/game/engine.ts (bid/pass)
+- Ghosts: recorded raids replay exactly from an input trace + seed; tampered traces are rejected; Ghost Duels at trials 21 and 53, Ghost Gate defence (hologram raider) at trial 51 — src/game/ghost.ts, src/game/ghosts.ts
+- Fatigue and raider rotation with a "Who raids?" stamina pick (trials 56, 60, 65, 66); rival captains with one weakness (trials 57, 60-62, 64-66) — src/game/engine.ts, src/screens/match/Overlays.tsx (PickPanel)
+- Coach: 3 free hints per trial show the best move on the real engine; 5 more cost 150 coins in the Shop — src/screens/GameScreen.tsx (bestMove), src/screens/ShopScreen.tsx
+- Tutorial: Trials 1, 2 and 4 guide the first raid and the first defence with a pointing hand and coach lines — src/screens/GameScreen.tsx
+- Daily reward: 7-day login streak, 50 x day coins, day 7 adds 3 Chant Tokens; optional daily reminder — src/game/meta.ts (dailyState, dailyPay), src/screens/HomeScreen.tsx
+- Currencies: coins and Chant Tokens earned from trials, matches, cups and the daily reward — src/game/meta.ts (reward)
+- Settings: sound, music, vibration, left-handed layout, reduced motion, daily reminders, share, restore purchases — src/ui/SettingsPopup.tsx
+- Shop: Remove Ads (one-time), coin packs at store prices, an optional rewarded video for 50 coins — src/screens/ShopScreen.tsx
+- Kit Album: 12 fixed cosmetics in 3 sets (4 crest shields, 4 raid trails, 4 raid banners), bought with coins (300-900) or Chant Tokens (3-5), worn in matches (scoreboard shield, raid path, raid banners); a full set pays 200-300 coins + 2-3 tokens once; no random rewards — src/game/kit.ts, src/screens/KitAlbumScreen.tsx

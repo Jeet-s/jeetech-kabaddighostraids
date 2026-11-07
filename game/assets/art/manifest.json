@@ -1,0 +1,161 @@
+{
+  "style": "Premium stylised-realistic 2.5D sports-hero look, in the spirit of EA FC Mobile and Cricket League: chunky confident silhouettes with slightly oversized heads, hands and feet, athletic proportions, and warm expressive faces. Rendering is clean soft-gradient cel shading: two to three tonal steps per surface, a crisp rim light in warm gold on the key side and a cool indigo bounce on the shadow side, and a thin dark-indigo outline (2-3 px at 1080p) that thickens at the silhouette. Materials are readable at thumbnail size: matte mud-brown and sand mats with fine grain, glossy lacquered synthetic mats with soft specular streaks, satin jersey fabric with subtle fold highlights, polished brushed-gold trim, and frosted glass HUD panels with an inner glow. Lighting is dramatic stadium floodlighting from above-front, with volumetric light shafts, soft bloom on gold and neon, and a gentle vignette. The mat is the brightest, cleanest area, with a clear value hierarchy: mat and players first, HUD second, crowd last. The crowd is blurred, desaturated and low-contrast, and sits in a parallax far layer with depth haze. The mood is electric, proud and festive: a night-match arena in saturated indigo and royal blue, hot saffron and gold, and a punchy crimson accent. Ghost mechanics use a translucent cyan-violet holographic trail with scanline shimmer and soft additive glow, clearly distinct from real players. There is no gore and no violence; contact reads as athletic, with dust puffs and impact starbursts. Detailing stays uncluttered, with no text baked into images and no real brands.",
+  "palette": [
+    "#1B1F5E",
+    "#FFB400",
+    "#E8363D",
+    "#12B5E5",
+    "#F4EBD8",
+    "#0B0D2B"
+  ],
+  "ui_palette": {
+    "primary": "#FFB400",
+    "primaryDark": "#C77700",
+    "secondary": "#2D3BCB",
+    "secondaryDark": "#1B1F5E",
+    "accent": "#12B5E5",
+    "accentDark": "#0A7FA6",
+    "bgTop": "#2A2F8F",
+    "bgBottom": "#0B0D2B",
+    "ink": "#F4EBD8"
+  },
+  "assets": [
+    {
+      "id": "bg_village_mat_far",
+      "kind": "background",
+      "file": "bg_village_mat_far.png",
+      "usage": "Chapter 1 match parallax far layer",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "id": "bg_night_stadium_far",
+      "kind": "background",
+      "file": "bg_night_stadium_far.png",
+      "usage": "Default league match background",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "id": "bg_auction_hall",
+      "kind": "background",
+      "file": "bg_auction_hall.png",
+      "usage": "Auction Hall and menu background",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "id": "mat_board",
+      "kind": "ui",
+      "file": "mat_board.png",
+      "usage": "Match board frame and mat surface",
+      "width": 512,
+      "height": 402
+    },
+    {
+      "id": "raider_saffron",
+      "kind": "sprite",
+      "file": "raider_saffron.png",
+      "usage": "Player raider in the match",
+      "width": 504,
+      "height": 512
+    },
+    {
+      "id": "defender_teal",
+      "kind": "sprite",
+      "file": "defender_teal.png",
+      "usage": "Defender in the chain",
+      "width": 463,
+      "height": 512
+    },
+    {
+      "id": "defender_selected_ring",
+      "kind": "fx",
+      "file": "defender_selected_ring.png",
+      "usage": "Selected defender highlight",
+      "width": 512,
+      "height": 207
+    },
+    {
+      "id": "ghost_raider",
+      "kind": "sprite",
+      "file": "ghost_raider.png",
+      "usage": "Ghost raid replay raider",
+      "width": 445,
+      "height": 512
+    },
+    {
+      "id": "danger_zone_disc",
+      "kind": "fx",
+      "file": "danger_zone_disc.png",
+      "usage": "Defender danger zone under defenders",
+      "width": 512,
+      "height": 509
+    },
+    {
+      "id": "hud_panel",
+      "kind": "ui",
+      "file": "hud_panel.png",
+      "usage": "Top HUD and scoreboard plate",
+      "width": 357,
+      "height": 512
+    },
+    {
+      "id": "btn_primary_gold",
+      "kind": "ui",
+      "file": "btn_primary_gold.png",
+      "usage": "Primary CTA button plate",
+      "width": 512,
+      "height": 251
+    },
+    {
+      "id": "btn_secondary_blue",
+      "kind": "ui",
+      "file": "btn_secondary_blue.png",
+      "usage": "Secondary button plate",
+      "width": 512,
+      "height": 295
+    },
+    {
+      "id": "btn_move_gem",
+      "kind": "ui",
+      "file": "btn_move_gem.png",
+      "usage": "Circular move buttons for Hand Touch, Dash and Dubki",
+      "width": 493,
+      "height": 512
+    },
+    {
+      "id": "icon_coin_token",
+      "kind": "ui",
+      "file": "icon_coin_token.png",
+      "usage": "Reward icons for coins and Chant Tokens",
+      "width": 512,
+      "height": 298
+    },
+    {
+      "id": "fx_impact_burst",
+      "kind": "fx",
+      "file": "fx_impact_burst.png",
+      "usage": "Touch and tackle impact",
+      "width": 470,
+      "height": 512
+    },
+    {
+      "id": "hero_raid_god",
+      "kind": "character",
+      "file": "hero_raid_god.png",
+      "usage": "Title screen hero key art",
+      "width": 493,
+      "height": 512
+    },
+    {
+      "id": "logo",
+      "kind": "ui",
+      "file": "logo.png",
+      "usage": "the game logo — title/home screen and anywhere the name appears",
+      "width": 786,
+      "height": 553
+    }
+  ],
+  "legacy": []
+}

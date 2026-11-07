@@ -1,0 +1,2 @@
+L50 g=1.05 s=- w=1 casual 71% mid 81% (aim 62%) skilled 91%
+L50 g=1.05 s=- w=1 casual 71% mid 81% (aim 62%) skilled 91%

@@ -1,0 +1,2 @@
+L19 g=0.39 s=0.54 w=1 casual 85% mid 76% (aim 80%) skilled 89%
+L19 g=0.39 s=0.54 w=1 casual 85% mid 76% (aim 80%) skilled 89%

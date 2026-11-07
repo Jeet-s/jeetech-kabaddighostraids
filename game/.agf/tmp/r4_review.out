@@ -1,0 +1,114 @@
+PASS level_intents: all 66 levels have a specific intent
+PASS no_filler_levels: no trivial filler levels after the tutorial
+FAIL level_design: level-design review 6.4/10 (bar 8), 9 level(s) below 6/10: The set has a strong spine. The "READ gem = your real risk" idea, the single-lesson teach units, the formation themes (Cage, Pincer, Wall, Diamond) and the half-time reversal boss at L55 are genuinely good. It is not yet at EA FC Mobile or Top Eleven polish, for these reasons.
+
+(1) Several units contradict their own numbers. L49's gems are 3-10% but the competent win rate is 75% with no 3★ possible. L18 and L21 have a near-free bonus hop that you can repeat, so it dominates. L14 teaches the Dubki where the Dash is strictly better. L50 rigs the DRS lesson.
+
+(2) The Hold, Block, Rush and Chain tackle numbers sit far below the doc's stated target. The doc says a median player lands about 55-60% of single tackles and about 70% of chains. From L36 on, the best matching stop is about 45-50% and the chain about 40-50%. Defence units with tight fail caps (L47, L51, L59) therefore become coin flips instead of reads.
+
+(3) Near-clones inside the set:
+- L21, L32 and L54 are the same ghost-duel template.
+- L30 and L52 are the same Rusher/T/Blocker match.
+- L16, L13 and L40 are the same Toe-the-T, Hand-the-A lesson.
+- L29 and L58 are the same step-back-from-the-kick lesson.
+- L19, L31 and L64 are the same revival comeback.
+- L48, L53, L55 and L61 reuse the Cage mat.
+
+(4) Teaching order is off. Super Raid arrives at L45, Chain at L46, DRS at L50 and defending the Dubki only at L58. Scouting debuts inside a full match at L30. L31 piles 6 mechanics onto a spike.
+
+(5) Retention is thin. The auction (L34, 41, 42, 44) is a puzzle that never feeds the campaign. L56, L60 and L66 hand you fixed raiders (Veer, Kabir, Dev) regardless of what you bought. "Ghost duels" are scripted CPU recipes, not real player ghosts. There are no visible upgrade, season or unlock hooks inside the units.
+
+(6) About 40 units show "trap rate ?" and "optimal moves > search cap", so solvability and fairness are not proven.
+
+Fix these and the 7-8 band becomes 8-9. Curve: Chapter 1 (L1-L11) is good: one idea per unit, with the first defence at L4 and a breather at L8. It is too easy at the top, though. The L11 boss has an 87% casual win rate and a mid-skill rate below L5's. The L10 "spike" is no harder than the units around it, and its intent miscounts the deficit (it needs a +3 net swing, not "two points").
+
+Chapter 2 (L12-L22) introduces the Toe, Dubki, Block, Do-or-Die, bonus and revival well. But L14 and L18 are broken lessons. L20 and L22 pile on layers, and defending a Dubki is never taught before the L22 boss. The first ghost duel (L21) is a recipe, not a contest.
+
+Chapter 3 (L23-L33) is solid on the Kick and Rush (L23, L25, L29). L24 is weak, because you cannot choose to be held. Scouting is not taught alone (L30). L31 and L33 are back-to-back comebacks, and the repeated ghost duel (L32) adds little.
+
+Chapter 4 (L34-L44) is the weakest chapter.
+- The auction opens at a 58% mid-skill win rate.
+- The specialist and Anchor lessons have little effect on outcomes, because the raider targets 7 slots and the specialists cover only 2-3 of them.
+- L40 repeats a lesson already taught twice.
+- L41 and L44 gate the match behind a re-bid.
+
+Chapter 5 (L45-L55) is the real pacing failure. Nine hard, high-variance units run in a row (L47-L53: 47, 48, 49, 50, 51, 52, 53), with the only relief at L54. Super Raid, Chain and DRS all land late. L55 is the best boss in the game.
+
+Chapter 6 (L56-L66) is mostly well designed. Fatigue, the rival captain and the return-beat feint are good ideas, and L63 shows the right tuning for ghost-gate defence. L64 and L65 are two spikes in a row, which makes six spikes or comeback units overall. The final boss (L66) is easier for competent players (92%) than L51, L52, L59 and L61, so it is not the peak test of mastery.
+
+Overall difficulty is sawtooth, but the late chapters rely on defence odds near 50% and tight fail caps, which reads as luck. A good arc looks like this:
+- Move Super Raid, Chain and DRS into Ch2-Ch3.
+- Put a breather after every 3 hard units.
+- Make the final boss the hardest skill check.
+- Tie auction-built squads and the fatigue roster into the campaign.
+- Add visible season and upgrade rewards per chapter.
+REDESIGN THESE LEVELS (keep the ones not listed):
+L14 (4/10): READ shows Dash (13%) beats Dubki (17%) even after the A is out, so the forced 'lowMove' Dubki is a worse move; the lesson contradicts its own numbers, and the Dash is present so 'alone' is false. → Remove the Dash from MY MOVES here, or put a Blocker wall in the middle so Dash is walled; make Dubki the clear best way home.
+L18 (4/10): Bonus held is 4% and a hop removes nobody, so hop-every-raid scores the 4-point goal with no mat thinning; the stated tension ('bonus first') does not exist. → Make hop risk 15-25% (rookie corners 10%), cap one bonus per two raids or add scouting on repeated hops, and require 2 hops plus touches.
+L49 (4/10): Gems 3-10% but competent wins only 30/40 with no 3★ possible: numbers contradict outcomes, breaking the 'gem = real risk' promise. → Audit the engine vs displayed gems; fix the displayed risk or reduce hidden Rusher charge, and make a 3★ attainable.
+L24 (5/10): You cannot choose to be held, so the 'one lesson' happens by luck; chained pair C C is a second unrelated concept; the lunge is simply better at shallow depth, making a tiny decision. → Script a hold on raid 1, remove the C pair, and add a depth-based reason to choose pull (e.g. touch two to score) so there is a real trade.
+L34 (5/10): First meta mechanic opens at 58% mid-skill win rate; purely a budget puzzle; result is not tied to the campaign roster; the star tutorial sells 'buy the star' then makes it nearly illegal. → Introduce a gentle 3-lot auction in ch2; here give a hint tool showing bid ceilings and tie the bought squad into later trials.
+L50 (5/10): First close call is rigged wrong and 'very tight' is stated as wrong ~half the time, so the lesson is dishonest; the star is free; DRS arrives late. → Use real probabilities, put DRS in chapter 2-3, and let the star require spending the review on the right call.
+L51 (5/10): Even with perfect plans the counter stops ~55%, so a 'solved' plan fails 32% for competent players; lowest casual win (59%). → Raise matching counter to ~75% (as L63 does) so a correct plan feels earned.
+L52 (5/10): Near-duplicate of L30; mid-skill 60%; promised 'not a slog' but it is a five-system match. → Use a distinct Diamond gimmick (Blocker point moves) and drop one system.
+L59 (5/10): Hardest defence unit (59% mid-skill); chain ~50% and cap of 2 over 4 raids makes outcome coin-flip. → Raise stop odds on a correctly read return to ~65% or allow conceding 3.
+L2 (6/10): Safe rookie gems (8%) vs Ts (15-20%) barely differ at grip 0.20, so no real danger is felt; 91-93% win for everyone. → Raise grip to ~0.4 so Ts sit at 30-40% and rookies stay under 10%; the gap should feel decisive.
+L7 (6/10): Struggle is the game's signature mini-game but gets no dedicated practice; you cannot choose to be held; 'Break free' star is luck; 93% win. → Script a guaranteed grab on raid 1 so everyone plays the struggle once, and add a star for a perfect-escape timing.
+L10 (6/10): Intent miscounts: win by 1 from -2 is a +3 net swing, not 'two points'; win rate 85% equals breathers, so it is not a spike. → Correct the intent text, give the Village captain 2 touches with higher s, and drop win-rate target to ~70%.
+L16 (6/10): Too many concepts (empty counter, lead, Toe/Hand counters); walk-home risk (63%) swamps the 10% counter-touch, so the data does not support 'touch the INSIDE safely'; 3★ rests on one scripted empty. → Split into two units: counter-touch alone first, empty-raid management later; lower walk-home risk or force Dash use.
+L30 (6/10): Scouting debuts inside a full match; it only adds ~6 pts so rarely changes a decision; near-duplicate of L52 (Rusher/T/Blocker mat). → Add a dedicated scouting teach puzzle before this and make the scouted penalty bigger (~10) or give a switch reward.
+L31 (6/10): Six mechanics at once (revival, all-out, super tackle, kick, lunge, Dubki); third copy of the revival shape in the game (19, 31, 64). → Limit to revival + super tackle, and vary the structure (e.g. defence-only half).
+L32 (6/10): Same template as L21 (replay, empty first raid, greedy last raid); nothing new. → Make it a defence-vs-ghost or let you pick which of the ghost's raids to beat; vary the ghost's mistake.
+L35 (6/10): Specialists sit only on the corners (2 of 7 slots), so most raids never use them; the lesson rarely triggers. → Bias the raider toward the corners or place specialists on slots 2/6 and show the multiplier on the ring.
+L36 (6/10): 1.15x is a small effect and the skill gap is tiny (75% vs 79%); little decision beyond 'use the central man'. → Raise Anchor bonus visibly and add an enemy that targets just outside the ring.
+L40 (6/10): Third repeat of the Toe-the-T / Hand-the-A lesson (13, 16, 40); defence part repeats 35/39. → Replace with a mirror where the CPU squad swaps counters mid-match, or merge into a single unit.
+L41 (6/10): Raider s 0.12 is so weak that the wrong corner still wins; the 'buy for the opponent' point is unenforced; trap rate 1 flagged. → Raise raider skill so a Thigh corner genuinely loses, and make Ankle corner required for 3★.
+L43 (6/10): 'Best 2★' means 3★ is unreachable for competent players; intent says hops 'compete with touches' but hops remove nobody; not truly a breather. → Fix the star set so 3★ is attainable and align the text with the rules (the mat thins only on touches).
+L58 (6/10): Same lesson as L29 (step back from the kick) plus 'always Ankle on the way home', which is a static read; 61% casual. → Let the Dubki King vary his way home by streak and make Dubki defence a standalone teach earlier.
+L60 (6/10): 'Exactly two systems' is false (feints, bonus, rushers, kicks); 56% casual. → Remove feints/bonus from the CPU and trim to 12 raids.
+L64 (6/10): Third revival comeback; held gems 37-86% but 75% competent win: numbers do not match outcomes. → Audit gems vs engine and change the structure (half-time reversal).
+L6 (7/10): Gem % already shows the cover's value, so the choice is nearly given; fail cap (opp >5 in 5 raids) can never trigger. → Make the target's gem show the raw (82%) value and the neighbour's the full value so players must choose; set fail cap to a reachable number (>3).
+
+level-design score 6.4/10 — The set has a strong spine. The "READ gem = your real risk" idea, the single-lesson teach units, the formation themes (Cage, Pincer, Wall, Diamond) and the half-time reversal boss at L55 are genuinely good. It is not yet at EA FC Mobile or Top Eleven polish, for these reasons.
+
+(1) Several units contradict their own numbers. L49's gems are 3-10% but the competent win rate is 75% with no 3★ possible. L18 and L21 have a near-free bonus hop that you can repeat, so it dominates. L14 teaches the Dubki where the Dash is strictly better. L50 rigs the DRS lesson.
+
+(2) The Hold, Block, Rush and Chain tackle numbers sit far below the doc's stated target. The doc says a median player lands about 55-60% of single tackles and about 70% of chains. From L36 on, the best matching stop is about 45-50% and the chain about 40-50%. Defence units with tight fail caps (L47, L51, L59) therefore become coin flips instead of reads.
+
+(3) Near-clones inside the set:
+- L21, L32 and L54 are the same ghost-duel template.
+- L30 and L52 are the same Rusher/T/Blocker match.
+- L16, L13 and L40 are the same Toe-the-T, Hand-the-A lesson.
+- L29 and L58 are the same step-back-from-the-kick lesson.
+- L19, L31 and L64 are the same revival comeback.
+- L48, L53, L55 and L61 reuse the Cage mat.
+
+(4) Teaching order is off. Super Raid arrives at L45, Chain at L46, DRS at L50 and defending the Dubki only at L58. Scouting debuts inside a full match at L30. L31 piles 6 mechanics onto a spike.
+
+(5) Retention is thin. The auction (L34, 41, 42, 44) is a puzzle that never feeds the campaign. L56, L60 and L66 hand you fixed raiders (Veer, Kabir, Dev) regardless of what you bought. "Ghost duels" are scripted CPU recipes, not real player ghosts. There are no visible upgrade, season or unlock hooks inside the units.
+
+(6) About 40 units show "trap rate ?" and "optimal moves > search cap", so solvability and fairness are not proven.
+
+Fix these and the 7-8 band becomes 8-9.
+curve: Chapter 1 (L1-L11) is good: one idea per unit, with the first defence at L4 and a breather at L8. It is too easy at the top, though. The L11 boss has an 87% casual win rate and a mid-skill rate below L5's. The L10 "spike" is no harder than the units around it, and its intent miscounts the deficit (it needs a +3 net swing, not "two points").
+
+Chapter 2 (L12-L22) introduces the Toe, Dubki, Block, Do-or-Die, bonus and revival well. But L14 and L18 are broken lessons. L20 and L22 pile on layers, and defending a Dubki is never taught before the L22 boss. The first ghost duel (L21) is a recipe, not a contest.
+
+Chapter 3 (L23-L33) is solid on the Kick and Rush (L23, L25, L29). L24 is weak, because you cannot choose to be held. Scouting is not taught alone (L30). L31 and L33 are back-to-back comebacks, and the repeated ghost duel (L32) adds little.
+
+Chapter 4 (L34-L44) is the weakest chapter.
+- The auction opens at a 58% mid-skill win rate.
+- The specialist and Anchor lessons have little effect on outcomes, because the raider targets 7 slots and the specialists cover only 2-3 of them.
+- L40 repeats a lesson already taught twice.
+- L41 and L44 gate the match behind a re-bid.
+
+Chapter 5 (L45-L55) is the real pacing failure. Nine hard, high-variance units run in a row (L47-L53: 47, 48, 49, 50, 51, 52, 53), with the only relief at L54. Super Raid, Chain and DRS all land late. L55 is the best boss in the game.
+
+Chapter 6 (L56-L66) is mostly well designed. Fatigue, the rival captain and the return-beat feint are good ideas, and L63 shows the right tuning for ghost-gate defence. L64 and L65 are two spikes in a row, which makes six spikes or comeback units overall. The final boss (L66) is easier for competent players (92%) than L51, L52, L59 and L61, so it is not the peak test of mastery.
+
+Overall difficulty is sawtooth, but the late chapters rely on defence odds near 50% and tight fail caps, which reads as luck. A good arc looks like this:
+- Move Super Raid, Chain and DRS into Ch2-Ch3.
+- Put a breather after every 3 hard units.
+- Make the final boss the hardest skill check.
+- Tie auction-built squads and the fatigue roster into the campaign.
+- Add visible season and upgrade rewards per chapter.

@@ -1,0 +1,2 @@
+L55 g=1.46 s=0.68 w=1 casual 65% mid 72% (aim 57%) skilled 84%
+L55 g=1.46 s=0.68 w=1 casual 65% mid 72% (aim 57%) skilled 84%

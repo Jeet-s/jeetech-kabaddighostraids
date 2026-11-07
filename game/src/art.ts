@@ -1,0 +1,33 @@
+/** Game art (assets/art/manifest.json: kind/usage/size; "legacy" ids are the previous art). Use with expo Image or Skia useImage. */
+export const art = {
+  bg_village_mat_far: require("../assets/art/bg_village_mat_far.png"),
+  bg_night_stadium_far: require("../assets/art/bg_night_stadium_far.png"),
+  bg_auction_hall: require("../assets/art/bg_auction_hall.png"),
+  mat_board: require("../assets/art/mat_board.png"),
+  raider_saffron: require("../assets/art/raider_saffron.png"),
+  defender_teal: require("../assets/art/defender_teal.png"),
+  defender_selected_ring: require("../assets/art/defender_selected_ring.png"),
+  ghost_raider: require("../assets/art/ghost_raider.png"),
+  danger_zone_disc: require("../assets/art/danger_zone_disc.png"),
+  hud_panel: require("../assets/art/hud_panel.png"),
+  btn_primary_gold: require("../assets/art/btn_primary_gold.png"),
+  btn_secondary_blue: require("../assets/art/btn_secondary_blue.png"),
+  btn_move_gem: require("../assets/art/btn_move_gem.png"),
+  icon_coin_token: require("../assets/art/icon_coin_token.png"),
+  fx_impact_burst: require("../assets/art/fx_impact_burst.png"),
+  hero_raid_god: require("../assets/art/hero_raid_god.png"),
+  logo: require("../assets/art/logo.png"),
+  // baked from the sprites above (scripts/art/bake.py)
+  gem_saffron: require("../assets/art/gem_saffron.png"),
+  gem_crimson: require("../assets/art/gem_crimson.png"),
+  gem_cyan: require("../assets/art/gem_cyan.png"),
+  gem_violet: require("../assets/art/gem_violet.png"),
+  gem_green: require("../assets/art/gem_green.png"),
+  gem_gold: require("../assets/art/gem_gold.png"),
+  gem_navy: require("../assets/art/gem_navy.png"),
+  icon_coin: require("../assets/art/icon_coin.png"),
+  icon_token: require("../assets/art/icon_token.png"),
+  defender_saffron: require("../assets/art/defender_saffron.png"),
+  raider_teal: require("../assets/art/raider_teal.png"),
+} as const;
+export type ArtId = keyof typeof art;

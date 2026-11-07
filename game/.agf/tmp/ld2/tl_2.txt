@@ -1,0 +1,7 @@
+L2 g=0.18 s=- w=1 casual 93% mid 92% (aim 97%) skilled 95%
+L2 g=0.18 s=- w=1 casual 93% mid 92% (aim 97%) skilled 95%
+npm notice
+npm notice New major version of npm available! 10.9.3 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice

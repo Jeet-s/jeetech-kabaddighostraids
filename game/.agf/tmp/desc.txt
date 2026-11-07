@@ -1,0 +1,672 @@
+L1: Teach the raid: pick a defender, Hand Touch him and walk back over the midline. Seven rookies, 3 raids, 1 point needed — the only lesson is that a touch only counts once you are home.
+[Raid Puzzle · teach · Ch1 Village Mat] OPP MAT: o o o o o o o · grip 0.675
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: you raid 3x
+MY MOVES: hand walk pull
+READ (real % my raider is held) touch: 1o:h8 2o:h10 3o:h10 4o:h10 5o:h10 6o:h10 7o:h8 | home after 1 touch: walk 13% | if held: pull 47%
+GOAL: score 1 | FAIL: raider out 2x | STARS: Score on your first raid; Never get caught
+PROOF (validate, real engine): a competent player won 39/40 seeds (best 3★), a mid-skill player 58/60
+
+L2: Two rookies stand in the gap between five big Thigh-holders (T). A Hand Touch on a T, or beside him, gets you grabbed; the rookie pair in slots 3-4 is the safe touch. Aha: read the gap, not the defender. 2 points in 3 raids.
+[Raid Puzzle · teach · Ch1 Village Mat] OPP MAT: T T o o T T T · grip 0.153
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: you raid 3x
+MY MOVES: hand walk pull
+READ (real % my raider is held) touch: 1T:h12 2T:h12 3o:h6 4o:h6 5T:h12 6T:h15 7T:h12 | home after 1 touch: walk 18% | if held: pull 48%
+GOAL: score 2 | FAIL: raider out 2x | STARS: Never get caught; No empty raids
+PROOF (validate, real engine): a competent player won 37/40 seeds (best 3★), a mid-skill player 55/60
+
+L3: Five Thigh-holders fill the middle; only the corners are rookies. Walking home past five T's is a coin flip, a Dash bursts past their slow reach. Aha: touch a corner, then Dash, never walk. 3 points in 5 raids.
+[Raid Puzzle · teach · Ch1 Village Mat] OPP MAT: o T T T T T o · grip 0.155
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: you raid 5x
+MY MOVES: hand walk dash pull
+READ (real % my raider is held) touch: 1o:h5 2T:h13 3T:h16 4T:h16 5T:h16 6T:h13 7o:h5 | home after 1 touch: walk 18%, dash 7% | if held: pull 48%
+GOAL: score 3 | FAIL: raider out 2x | STARS: Never get caught; Score 4 points
+PROOF (validate, real engine): a competent player won 32/40 seeds (best 2★), a mid-skill player 54/60
+
+L4: First defence. The village raider only Toe Touches; select the defender next to his target and Ankle Hold on the ring. Tapping Hold (no tackle) gifts him the touch. Stop 2 of his 4 raids, concede no more than 3.
+[Defend Stand · teach · Ch1 Village Mat] OPP MAT: o o o o o o o · grip 1
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: you defend 4 CPU raids
+MY MOVES: hand walk dash pull | DEFENCE: ankle hold
+CPU RAIDER "Village raider": s 0.063 · Easy · touches toe · home walk · up to 1 touch
+READ my best stop: vs touch toe→ankle 73% | vs way home walk→ankle 35% | his touch lands 72% if untackled
+GOAL: stop 2 raids | FAIL: opp scores > 3 | STARS: Stop 3 raids; Concede at most 1
+PROOF (validate, real engine): a competent player won 29/40 seeds (best 2★), a mid-skill player 44/60
+
+L5: The raider now mixes Hand Touches and Toe Touches and his move is telegraphed. Ankle Hold beats a Toe Touch, Thigh Hold beats a Hand Touch — the wrong hold fails 3 times in 4. Aha: match the hold to the move. Stop 3 of 5.
+[Defend Stand · teach · Ch1 Village Mat] OPP MAT: o o o o o o o · grip 1
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: you defend 5 CPU raids
+MY MOVES: hand walk dash pull | DEFENCE: ankle thigh hold
+CPU RAIDER "Village raider": s 0.25 · Easy · touches hand/toe · home walk · up to 1 touch
+READ my best stop: vs touch hand→thigh 63%, toe→ankle 64% | vs way home walk→thigh 54% | his touch lands 76% if untackled
+GOAL: stop 3 raids | FAIL: opp scores > 4 | STARS: Stop 4 raids; Concede at most 2
+PROOF (validate, real engine): a competent player won 38/40 seeds (best 2★), a mid-skill player 50/60
+
+L6: Twist: the raider now Dashes home after his touch. The touched man tackles at 82%, his cover beside him at 100%, two away only 55%; on the way home an Ankle Hold beats a Dash, a Thigh Hold beats a walk. Aha: let the cover make the tackle, and keep a second chance for the return. Stop 3 of 5.
+[Defend Stand · twist · Ch1 Village Mat] OPP MAT: o o o o o o o · grip 1
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: you defend 5 CPU raids
+MY MOVES: hand walk dash pull | DEFENCE: ankle thigh hold
+CPU RAIDER "Village raider": s 0.387 · Easy · touches hand/toe · home walk/dash · up to 1 touch
+READ my best stop: vs touch hand→thigh 57%, toe→ankle 58% | vs way home walk→thigh 48%, dash→ankle 44% | his touch lands 80% if untackled
+GOAL: stop 3 raids | FAIL: opp scores > 5 | STARS: Stop 4 raids; Concede at most 2
+PROOF (validate, real engine): a competent player won 35/40 seeds (best 2★), a mid-skill player 40/60
+
+L7: Five Thigh-holders with strong grips around one rookie: even good raids get held here. Held raiders play the struggle — the pull-away breaks free about half the time, and the defender holding you counts as touched when you do. Aha: a hold is not the end — keep raiding the rookie gap and rip loose when grabbed. Score 3 in 5 raids; caught 3 times and it's over.
+[Raid Puzzle · teach · Ch1 Village Mat] OPP MAT: T T o T o T T · grip 0.456
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: you raid 5x
+MY MOVES: hand walk dash pull
+READ (real % my raider is held) touch: 1T:h31 2T:h33 3o:h25 4T:h25 5o:h25 6T:h33 7T:h31 | home after 1 touch: walk 44%, dash 19% | if held: pull 44%
+GOAL: score 3 | FAIL: raider out 3x | STARS: Break free from a hold; Never get caught
+PROOF (validate, real engine): a competent player won 37/40 seeds (best 3★), a mid-skill player 44/60
+
+L8: Breather and first real match flow: 3 raids each against a gentle village side (one Thigh-holder, a Hand-Touch-only raider). Raid, then defend, then raid. Win the segment by 1; 3 stars for winning by 4.
+[Match · breather · Ch1 Village Mat] OPP MAT: o o o T o o o · grip 0.8
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: alternate: 3 raids / 3 defences
+MY MOVES: hand walk dash pull | DEFENCE: ankle thigh hold
+CPU RAIDER "Fair raider": s 0.25 · Easy · touches hand · home walk · up to 1 touch
+READ (real % my raider is held) touch: 1o:h9 2o:h12 3o:h27 4T:h40 5o:h27 6o:h12 7o:h9 | home after 1 touch: walk 29%, dash 17% | if held: pull 40%
+READ my best stop: vs touch hand→thigh 63% | vs way home walk→thigh 54% | his touch lands 76% if untackled
+GOAL: win by 1+ | STARS: Win by 3; Win by 4
+PROOF (validate, real engine): a competent player won 37/40 seeds (best 3★), a mid-skill player 51/60
+
+L9: Combine both halves of chapter 1: T's guard both corners and the centre, so raid the gaps and Dash home; their raider mixes Hand/Toe and walks or Dashes, so match the hold and use the cover. 4 raids each; win by 2.
+[Match · combine · Ch1 Village Mat] OPP MAT: T o o T o T o · grip 0.8
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: alternate: 4 raids / 4 defences
+MY MOVES: hand walk dash pull | DEFENCE: ankle thigh hold
+CPU RAIDER "Village raider": s 0.25 · Easy · touches hand/toe · home walk/dash · up to 1 touch
+READ (real % my raider is held) touch: 1T:h38 2o:h27 3o:h27 4T:h40 5o:h40 6T:h40 7o:h25 | home after 1 touch: walk 49%, dash 24% | if held: pull 40%
+READ my best stop: vs touch hand→thigh 63%, toe→ankle 64% | vs way home walk→thigh 54%, dash→ankle 49% | his touch lands 76% if untackled
+GOAL: win by 2+ | STARS: Win by 4; Never get caught
+PROOF (validate, real engine): a competent player won 36/40 seeds (best 3★), a mid-skill player 48/60
+
+L10: Spike: 15:00 of the second half, 10-13 down, 4 raids each left against the village's best raider. Empty raids lose — every raid must score and every defence must stop him, so take the 2-touch raid when the gap allows. Win by 1.
+[Comeback · spike · Ch1 Village Mat] OPP MAT: T T o T o T T · grip 0.381
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: alternate: 4 raids / 4 defences · start score 10-13
+MY MOVES: hand walk dash pull | DEFENCE: ankle thigh hold
+CPU RAIDER "Village captain": s 0.125 · Easy · touches hand/toe · home walk/dash · up to 2 touches
+READ (real % my raider is held) touch: 1T:h27 2T:h28 3o:h21 4T:h21 5o:h21 6T:h28 7T:h27 | home after 1 touch: walk 38%, dash 16% | if held: pull 45%
+READ my best stop: vs touch hand→thigh 69%, toe→ankle 70% | vs way home walk→thigh 59%, dash→ankle 54% | his touch lands 73% if untackled
+GOAL: win by 1+ | STARS: Win by 3; Concede at most 3
+PROOF (validate, real engine): a competent player won 28/40 seeds (best 3★), a mid-skill player 36/60
+
+L11: Chapter boss: the full 40-minute Village Final (2x20, about 28 raids each). Everything from chapter 1 over a whole match — the score swings, all-outs and revivals happen for real. Win the match.
+[Full Match · boss · Ch1 Village Mat] OPP MAT: o T T o T T o · grip 0.8
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: alternate raids 00:00→40:00 (~56 raids)
+MY MOVES: hand walk dash pull | DEFENCE: ankle thigh hold
+CPU RAIDER "Village captain": s 0.922 · Easy · touches hand/toe · home walk/dash · up to 2 touches
+READ (real % my raider is held) touch: 1o:h25 2T:h50 3T:h50 4o:h40 5T:h50 6T:h50 7o:h25 | home after 1 touch: walk 57%, dash 27% | if held: pull 40%
+READ my best stop: vs touch hand→thigh 35%, toe→ankle 36% | vs way home walk→thigh 30%, dash→ankle 28% | his touch lands 93% if untackled
+GOAL: win by 1+ | STARS: Win by 6; Win by 12
+PROOF (validate, real engine): a competent player won 37/40 seeds (best 3★), a mid-skill player 39/60
+
+L12: Seven Thigh-holders and no gap at all. A Hand Touch into a T is suicide (55% grab), but the Toe Touch's long low reach stays under his hands (8%). Aha: change the move, not the target. 3 points in 4 raids.
+[Raid Puzzle · teach · Ch2 District Cup] OPP MAT: T T T T T T T · grip 0.216
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: you raid 4x
+MY MOVES: hand toe walk dash pull
+READ (real % my raider is held) touch: 1T:h16/t3 2T:h21/t3 3T:h21/t3 4T:h21/t3 5T:h21/t3 6T:h21/t3 7T:h16/t3 | home after 1 touch: walk 30%, dash 11% | if held: pull 47%
+GOAL: score 3 | FAIL: raider out 2x | STARS: Never get caught; Score 5 points
+PROOF (validate, real engine): a competent player won 36/40 seeds (best 2★), a mid-skill player 51/60
+
+L13: Twist: Ankle-catchers (A) on both corners and slot 3 wait for your Toe Touch (55% grab) but can't stop a Hand Touch; the T's are the opposite. Aha: every defender has a counter — Hand on A, Toe on T. 4 points in 5 raids.
+[Raid Puzzle · twist · Ch2 District Cup] OPP MAT: A T A o T T A · grip 0.314
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: you raid 5x
+MY MOVES: hand toe walk dash pull
+READ (real % my raider is held) touch: 1A:h10/t17 2T:h18/t18 3A:h11/t18 4o:h12/t11 5T:h24/t5 6T:h24/t12 7A:h10/t17 | home after 1 touch: walk 26%, dash 11% | if held: pull 46%
+GOAL: score 4 | FAIL: raider out 2x | STARS: Never get caught; Win within 3 raids
+PROOF (validate, real engine): a competent player won 29/40 seeds (best 3★), a mid-skill player 37/60
+
+L14: Four Blockers (B) form a wall on the midline: Dash home into them and they stop you (42% each). The Dubki ducks under their arms and under the T's reach. Aha: dubki under a reach. Score 3 points with at least one Dubki or Toe Touch scoring.
+[Raid Puzzle · teach · Ch2 District Cup] OPP MAT: T B B o B B T · grip 0.675
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: you raid 4x
+MY MOVES: hand toe walk dash dubki pull
+READ (real % my raider is held) touch: 1T:h34/t8 2B:h26/t12 3B:h14/t12 4o:h13/t11 5B:h14/t12 6B:h26/t12 7T:h34/t8 | home after 1 touch: walk 49%, dash 72%, dubki 16% | if held: pull 42%
+GOAL: score 3, 1x lowMove | FAIL: raider out 2x | STARS: Score with Dubki twice; Never get caught
+PROOF (validate, real engine): a competent player won 35/40 seeds (best 3★), a mid-skill player 38/60
+
+L15: The district raider always Dashes home. Let the touch go and form the Block on the midline (80% vs a Dash), or Ankle him (64%) — a Thigh Hold on a Dash fails. Aha: defend the way home, not the touch. Stop 3 of 5.
+[Defend Stand · teach · Ch2 District Cup] OPP MAT: o o o o o o o · grip 1
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: you defend 5 CPU raids
+MY MOVES: hand toe walk dash dubki pull | DEFENCE: ankle thigh block hold
+CPU RAIDER "District sprinter": s 0.375 · Easy · touches hand/toe · home dash · up to 1 touch
+READ my best stop: vs touch hand→thigh 57%, toe→ankle 59% | vs way home dash→block 68% | his touch lands 79% if untackled
+GOAL: stop 3 raids | FAIL: opp scores > 5 | STARS: Stop 4 raids; Concede at most 2
+PROOF (validate, real engine): a competent player won 31/40 seeds (best 2★), a mid-skill player 49/60
+
+L16: Teach the empty-raid counter: you lead 8-6 against a hard mat (A's and T's with strong grips) and already have 1 empty raid. An empty raid is safe — touching nobody keeps you deep in your own half — but the third in a row is Do-or-Die. Aha: one patient empty raid is a weapon, two is a risk. 4 raids each, keep a 2-point lead.
+[Match · teach · Ch2 District Cup] OPP MAT: A A T B T A A · grip 1
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: alternate: 4 raids / 4 defences · start score 8-6 · empty raids 1/0
+MY MOVES: hand toe walk dash dubki pull | DEFENCE: ankle thigh block hold
+CPU RAIDER "District raider": s 0.875 · Easy · touches hand/toe · home walk/dash · up to 1 touch
+READ (real % my raider is held) touch: 1A:h10/t56 2A:h32/t58 3T:h48/t33 4B:h49/t16 5T:h48/t33 6A:h32/t58 7A:h10/t56 | home after 1 touch: walk 59%, dash 51%, dubki 75% | if held: pull 38%
+READ my best stop: vs touch hand→thigh 37%, toe→ankle 38% | vs way home walk→thigh 32%, dash→block 46% | his touch lands 92% if untackled
+GOAL: win by 2+ | STARS: Win by 4; No empty raids
+PROOF (validate, real engine): a competent player won 33/40 seeds (best 3★), a mid-skill player 47/60
+
+L17: Twist: THEIR raider is on 2 empty raids, so his raid is Do-or-Die — if he comes back empty he is out anyway. Aha: on a Do-or-Die you can hold your shape; a wrong-hold tackle gifts him a point. Stop 2 of his 3 raids (a do-or-die out counts).
+[Do-or-Die Drill · twist · Ch2 District Cup] OPP MAT: o o o o o o o · grip 1
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: you defend 3 CPU raids · empty raids 0/2
+MY MOVES: hand toe walk dash dubki pull | DEFENCE: ankle thigh block hold
+CPU RAIDER "Desperate raider": s 0.625 · Easy · touches hand/toe · home walk/dash · up to 1 touch
+READ my best stop: vs touch hand→thigh 47%, toe→ankle 48% | vs way home walk→thigh 40%, dash→block 56% | his touch lands 86% if untackled
+GOAL: stop 2 raids | FAIL: opp scores > 3 | STARS: Stop all 3; Concede nothing
+PROOF (validate, real engine): a competent player won 29/40 seeds (best 2★), a mid-skill player 40/60
+
+L18: Two empty raids already: your next raid is Do-or-Die and an empty return puts you out. Ankle-catchers on the corners, a wall in the middle. Aha: in a Do-or-Die take the one SAFE touch (Hand on an A, Dubki home), never the greedy second. Win the Do-or-Die raid and score 2 in 2 raids.
+[Do-or-Die Drill · teach · Ch2 District Cup] OPP MAT: A o B B B o A · grip 0.396
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: you raid 2x · empty raids 2/0
+MY MOVES: hand toe walk dash dubki pull
+READ (real % my raider is held) touch: 1A:h4/t21 2o:h7/t14 3B:h8/t7 4B:h9/t8 5B:h8/t7 6o:h7/t14 7A:h4/t21 | home after 1 touch: walk 20%, dash 42%, dubki 28% | if held: pull 46%
+GOAL: score 2, 1x dodWin | FAIL: raider out 1x | STARS: Score 3 points; Score with a Dubki
+PROOF (validate, real engine): a competent player won 28/40 seeds (best 2★), a mid-skill player 33/60
+
+L19: Teach the bonus line: with 6+ defenders on the mat a hop over the bonus line scores 1 and puts nobody out. Rookie corners make the hop safe. Aha: bonus first — every touch puts a man out and below 6 the bonus line is dead. Earn 2 bonus points and 4 points total in 4 raids.
+[Raid Puzzle · teach · Ch2 District Cup] OPP MAT: o T T o T T o · grip 0.412
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: you raid 4x
+MY MOVES: hand toe bonus walk dash dubki pull
+READ (real % my raider is held) touch: 1o:h14/t4 2T:h30/t6 3T:h30/t6 4o:h23/t6 5T:h30/t6 6T:h30/t6 7o:h14/t4 bonus:5 | home after 1 touch: walk 35%, dash 15%, dubki 9% | if held: pull 45%
+GOAL: score 4, 2x bonus | FAIL: raider out 2x | STARS: Earn 3 bonus points; Never get caught
+PROOF (validate, real engine): a competent player won 40/40 seeds (best 3★), a mid-skill player 50/60
+
+L20: Spike: 14-13 up with 3 raids each left, and you are on 2 empty raids — your first raid is Do-or-Die. Ankle-catchers guard the corners (so the bonus hop is dangerous) and their raider goes for the bonus and two-touch raids. Win by 1.
+[Do-or-Die Drill · spike · Ch2 District Cup] OPP MAT: A T T B T T A · grip 1
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: alternate: 3 raids / 3 defences · start score 14-13 · empty raids 2/1
+MY MOVES: hand toe bonus walk dash dubki pull | DEFENCE: ankle thigh block hold
+CPU RAIDER "District star": s 1 · Easy · touches hand/toe/bonus · home walk/dash/dubki · up to 2 touches
+READ (real % my raider is held) touch: 1A:h29/t45 2T:h58/t33 3T:h59/t16 4B:h49/t16 5T:h59/t16 6T:h58/t33 7A:h29/t45 bonus:55 | home after 1 touch: walk 70%, dash 56%, dubki 56% | if held: pull 38%
+READ my best stop: vs touch hand→thigh 29%, toe→ankle 30%, bonus→ankle 18% | vs way home walk→thigh 25%, dash→block 37%, dubki→ankle 26% | his touch lands 95% if untackled
+GOAL: win by 1+ | STARS: Win by 3; No empty raids
+PROOF (validate, real engine): a competent player won 30/40 seeds (best 3★), a mid-skill player 40/60
+
+L21: Breather after the thriller: a friendly side with seven on the mat and rookie corners — the bonus line is open all match. Hop it for an easy lead. Earn a bonus point and win by 3; 3 stars at 3 bonus points.
+[Match · breather · Ch2 District Cup] OPP MAT: o T o o o T o · grip 1
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: alternate: 4 raids / 3 defences
+MY MOVES: hand toe bonus walk dash dubki pull | DEFENCE: ankle thigh block hold
+CPU RAIDER "Friendly raider": s 0.063 · Easy · touches hand/toe · home walk · up to 1 touch
+READ (real % my raider is held) touch: 1o:h30/t10 2T:h47/t14 3o:h33/t13 4o:h15/t13 5o:h33/t13 6T:h47/t14 7o:h30/t10 bonus:11 | home after 1 touch: walk 47%, dash 25%, dubki 20% | if held: pull 38%
+READ my best stop: vs touch hand→thigh 71%, toe→ankle 73% | vs way home walk→thigh 61% | his touch lands 72% if untackled
+GOAL: win by 3+, 1x bonus | STARS: Earn 3 bonus points; Win by 6
+PROOF (validate, real engine): a competent player won 38/40 seeds (best 3★), a mid-skill player 49/60
+
+L22: Chapter boss: the full 2x20 District Final against a side that mixes A, T and B defenders and a raider who hops the bonus and Dubkis home. Do-or-Die is live all match — keep your empty raids under control. Win the match.
+[Full Match · boss · Ch2 District Cup] OPP MAT: A T T B T T A · grip 1
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: alternate raids 00:00→40:00 (~56 raids)
+MY MOVES: hand toe bonus walk dash dubki pull | DEFENCE: ankle thigh block hold
+CPU RAIDER "District captain": s 0.969 · Easy · touches hand/toe/bonus · home walk/dash/dubki · up to 2 touches
+READ (real % my raider is held) touch: 1A:h29/t45 2T:h58/t33 3T:h59/t16 4B:h49/t16 5T:h59/t16 6T:h58/t33 7A:h29/t45 bonus:55 | home after 1 touch: walk 70%, dash 56%, dubki 56% | if held: pull 38%
+READ my best stop: vs touch hand→thigh 34%, toe→ankle 35%, bonus→ankle 21% | vs way home walk→thigh 29%, dash→block 42%, dubki→ankle 30% | his touch lands 94% if untackled
+GOAL: win by 1+ | STARS: Win by 5; Win by 10
+PROOF (validate, real engine): a competent player won 40/40 seeds (best 3★), a mid-skill player 41/60
+
+L23: Teach the Backward Kick: Rushers (R) charge the raider and grab Hand or Toe Touches (30%), but as he charges a Backward Kick tags him at 3% risk. Aha: let the rusher come to you. Score 2 Kicks and 3 points in 4 raids.
+[Raid Puzzle · teach · Ch3 State League] OPP MAT: R o R o R o R · grip 1.025
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: you raid 4x
+MY MOVES: hand toe kick bonus walk dash dubki pull
+READ (real % my raider is held) touch: 1R:h31/t29/k6 2o:h34/t32 3R:h34/t32/k10 4o:h34/t32 5R:h34/t32/k10 6o:h34/t32 7R:h31/t29/k6 bonus:82 | home after 1 touch: walk 39%, dash 18%, dubki 37% | if held: pull 43%
+GOAL: score 3, 2x kick | FAIL: raider out 2x | STARS: Score with 3 kicks; Never get caught
+PROOF (validate, real engine): a competent player won 36/40 seeds (best 2★), a mid-skill player 46/60
+
+L24: Teach the Escape lunge: strong-grip T's and a chained pair (C C) will hold you. Held near the midline (0-1 touches) the lunge for the line escapes 50-66%; held deep it drops to ~30% and the stamina pull-away is better. Aha: shallow → lunge, deep → pull. Score 3 in 5 raids; caught 3 times and it's over.
+[Raid Puzzle · teach · Ch3 State League] OPP MAT: T T C C T T T · grip 1.506
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: you raid 5x
+MY MOVES: hand toe kick bonus walk dash dubki pull lunge
+READ (real % my raider is held) touch: 1T:h71/t17 2T:h74/t25 3C:h54/t31 4C:h54/t31 5T:h74/t25 6T:h81/t21 7T:h71/t17 bonus:30 | home after 1 touch: walk 91%, dash 72%, dubki 30% | if held: pull 32%, lunge 31%
+GOAL: score 3 | FAIL: raider out 3x | STARS: Escape a hold; Score 5 points
+PROOF (validate, real engine): a competent player won 36/40 seeds (best 2★), a mid-skill player 53/60
+
+L25: Teach the defender Rush: the state raider goes for the bonus line on most raids (85% if you let him). A corner Rush stops the hop 78% of the time; any hold on a hop is weak. Aha: rush the hop, hold the touch. Stop 2 of 4 raids, concede no more than 3.
+[Defend Stand · teach · Ch3 State League] OPP MAT: o o o o o o o · grip 1
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: you defend 4 CPU raids
+MY MOVES: hand toe kick bonus walk dash dubki pull lunge | DEFENCE: ankle thigh block rush hold
+CPU RAIDER "Bonus hunter": s 0.469 · Easy · touches bonus/hand/toe · home walk/dash · up to 1 touch
+READ my best stop: vs touch bonus→rush 58%, hand→thigh 53%, toe→ankle 55% | vs way home walk→thigh 45%, dash→block 63% | his touch lands 82% if untackled
+GOAL: stop 2 raids | FAIL: opp scores > 3 | STARS: Stop 3 raids; Concede at most 1
+PROOF (validate, real engine): a competent player won 35/40 seeds (best 2★), a mid-skill player 47/60
+
+L26: Teach the Super Tackle: you have only 3 on the mat, so any tackle is worth 2 — but lose all 3 and the all-out gives them +2. Aha: three defenders are a threat, not a weakness. Land a Super Tackle within 4 raids and concede no more than 4.
+[Super Challenge · teach · Ch3 State League] OPP MAT: o o o o o o o · grip 1
+MY SIDE: o o - - - o - (3 on mat)
+FLOW: you defend 4 CPU raids
+MY MOVES: hand toe kick bonus walk dash dubki pull lunge | DEFENCE: ankle thigh block rush hold
+CPU RAIDER "State raider": s 0.875 · Easy · touches hand/toe · home walk/dash · up to 1 touch
+READ my best stop: vs touch hand→thigh 37%, toe→ankle 38% | vs way home walk→thigh 32%, dash→block 46% | his touch lands 92% if untackled
+GOAL: 1x superTackle | FAIL: opp scores > 4 | STARS: Two Super Tackles; Concede at most 1
+PROOF (validate, real engine): a competent player won 28/40 seeds (best 2★), a mid-skill player 41/60
+
+L27: Twist: you are down to 5 on the mat and their Rushers sit beside Thigh-holders. A Kick on a charging R is the safe point that revives a team-mate; drop to 3 and you fail. Score with a Backward Kick and win the 4-raid segment by 1.
+[Match · twist · Ch3 State League] OPP MAT: o R T R T o R · grip 1.2000000000000002
+MY SIDE: o - - o o o o (5 on mat)
+FLOW: alternate: 4 raids / 3 defences
+MY MOVES: hand toe kick bonus walk dash dubki pull lunge | DEFENCE: ankle thigh block rush hold
+CPU RAIDER "State raider": s 0.758 · Easy · touches hand/toe · home walk/dash · up to 1 touch
+READ (real % my raider is held) touch: 1o:h25/t23 2R:h53/t36/k15 3T:h65/t37 4R:h65/t37/k19 5T:h59/t27 6o:h46/t27 7R:h35/t33/k8 bonus:75 | home after 1 touch: walk 64%, dash 30%, dubki 38% | if held: pull 35%, lunge 35%
+READ my best stop: vs touch hand→thigh 42%, toe→ankle 43% | vs way home walk→thigh 36%, dash→block 51% | his touch lands 89% if untackled
+GOAL: win by 1+, 1x kick | FAIL: < 4 on mat | STARS: Finish with all 7; Score with 2 kicks
+PROOF (validate, real engine): a competent player won 32/40 seeds (best 3★), a mid-skill player 49/60
+
+L28: Teach the all-out: only a Thigh-holder and a rookie are left. Touch both out (one greedy 2-touch raid or two clean ones) and the all-out is +2 with their whole side coming back. Aha: finish the job — a lone survivor revives them. Inflict the all-out within 3 raids.
+[Super Challenge · teach · Ch3 State League] OPP MAT: - - o - - T - · grip 0.85
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: you raid 3x
+MY MOVES: hand toe kick bonus walk dash dubki pull lunge
+READ (real % my raider is held) touch: 3o:h26/t9 6T:h39/t9 | home after 1 touch: walk 21%, dash 9%, dubki 5% | if held: pull 39%, lunge 39%
+GOAL: 1x allOut | FAIL: raider out 2x | STARS: All-out in one raid; Never get caught
+PROOF (validate, real engine): a competent player won 34/40 seeds (best 2★), a mid-skill player 38/60
+
+L29: Twist on the kick: now THEIR raider touches once and Backward-Kicks the defender who chases him. Rushing a kicker fails 94%; Ankle or Thigh holds still work, and the Block owns his Dash home. Aha: never chase a kicker. Stop 3 of 5.
+[Defend Stand · twist · Ch3 State League] OPP MAT: o o o o o o o · grip 1
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: you defend 5 CPU raids
+MY MOVES: hand toe kick bonus walk dash dubki pull lunge | DEFENCE: ankle thigh block rush hold
+CPU RAIDER "State kicker": s 1 · Easy · touches hand/kick · home walk/dash · up to 2 touches
+READ my best stop: vs touch hand→thigh 33%, kick→thigh 14% | vs way home walk→thigh 28%, dash→block 41% | his touch lands 95% if untackled
+GOAL: stop 3 raids | FAIL: opp scores > 6 | STARS: Stop 4 raids; Concede at most 3
+PROOF (validate, real engine): a competent player won 28/40 seeds (best 2★), a mid-skill player 38/60
+
+L30: Combine chapter 3: a mat of Rushers around a Blocker and two T's, and a raider who hops the bonus or Dashes home. Kick the rushers, Dubki past the wall; Rush his hop, Block his Dash. 4 raids each, win by 2.
+[Match · combine · Ch3 State League] OPP MAT: R T R B R T R · grip 1.2000000000000002
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: alternate: 4 raids / 4 defences
+MY MOVES: hand toe kick bonus walk dash dubki pull lunge | DEFENCE: ankle thigh block rush hold
+CPU RAIDER "State raider": s 0.625 · Easy · touches hand/toe/bonus · home walk/dash · up to 1 touch
+READ (real % my raider is held) touch: 1R:h51/t34/k12 2T:h65/t37 3R:h54/t37/k17 4B:h41/t38 5R:h54/t37/k17 6T:h65/t37 7R:h51/t34/k12 bonus:86 | home after 1 touch: walk 70%, dash 57%, dubki 43% | if held: pull 35%, lunge 35%
+READ my best stop: vs touch hand→thigh 47%, toe→ankle 48%, bonus→rush 51% | vs way home walk→thigh 40%, dash→block 56% | his touch lands 86% if untackled
+GOAL: win by 2+ | STARS: Win by 4; Never get caught
+PROOF (validate, real engine): a competent player won 29/40 seeds (best 3★), a mid-skill player 38/60
+
+L31: Spike: all out at minute 5 — 4-10 down and only 2 back on the mat. Each point you score revives a team-mate, and with 3 or fewer every tackle is a Super Tackle. Aha: sacrifice greed for revivals — safe single touches rebuild the side. Reach 20:00 within 2 points; trail by 9 and it's over. Bringing all 7 back is the 3-star finish.
+[Revival Run · spike · Ch3 State League] OPP MAT: o T R o B T o · grip 1.2000000000000002
+MY SIDE: - - o - o - - (2 on mat)
+FLOW: alternate raids 15:00→20:00 (~7 raids) · start score 4-10
+MY MOVES: hand toe kick bonus walk dash dubki pull lunge | DEFENCE: ankle thigh block rush hold
+CPU RAIDER "State raider": s 0.891 · Easy · touches hand/toe · home walk/dash · up to 1 touch
+READ (real % my raider is held) touch: 1o:h35/t12 2T:h59/t27 3R:h53/t36/k15 4o:h30/t28 5B:h41/t19 6T:h54/t18 7o:h35/t12 bonus:38 | home after 1 touch: walk 61%, dash 56%, dubki 29% | if held: pull 35%, lunge 35%
+READ my best stop: vs touch hand→thigh 37%, toe→ankle 38% | vs way home walk→thigh 31%, dash→block 45% | his touch lands 92% if untackled
+GOAL: finish within 2 | FAIL: trail by > 8 | STARS: Draw level; All 7 back on the mat
+PROOF (validate, real engine): a competent player won 27/40 seeds (best 3★), a mid-skill player 19/60
+
+L32: Breather after the revival spike: a friendly against a second-string side — two rookies, one rusher to kick, bonus line open. 3 raids each; win by 2, 3 stars for 5.
+[Match · breather · Ch3 State League] OPP MAT: o o R o o T o · grip 1.2000000000000002
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: alternate: 3 raids / 3 defences
+MY MOVES: hand toe kick bonus walk dash dubki pull lunge | DEFENCE: ankle thigh block rush hold
+CPU RAIDER "Reserve raider": s 0.031 · Easy · touches hand/toe · home walk · up to 1 touch
+READ (real % my raider is held) touch: 1o:h13/t12 2o:h29/t26 3R:h38/t36/k11 4o:h29/t26 5o:h38/t16 6T:h53/t16 7o:h35/t12 bonus:38 | home after 1 touch: walk 44%, dash 25%, dubki 28% | if held: pull 35%, lunge 35%
+READ my best stop: vs touch hand→thigh 73%, toe→ankle 75% | vs way home walk→thigh 62% | his touch lands 71% if untackled
+GOAL: win by 2+ | STARS: Win by 4; Win by 5
+PROOF (validate, real engine): a competent player won 38/40 seeds (best 3★), a mid-skill player 51/60
+
+L33: Chapter boss with a comeback: the State Final, joined at 4:00 already 1-5 down after the champions' opening raids. Full mat of Rushers, Blockers and T's; a raider who kicks chasers and hops the bonus. Win the match.
+[Full Match · boss · Ch3 State League] OPP MAT: R T B o B T R · grip 1.2000000000000002
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: alternate raids 04:00→40:00 (~50 raids) · start score 1-5
+MY MOVES: hand toe kick bonus walk dash dubki pull lunge | DEFENCE: ankle thigh block rush hold
+CPU RAIDER "State champion": s 1 · Medium · touches hand/toe/bonus/kick · home walk/dash/dubki · up to 2 touches
+READ (real % my raider is held) touch: 1R:h51/t34/k12 2T:h60/t29 3B:h41/t19 4o:h21/t18 5B:h41/t19 6T:h60/t29 7R:h51/t34/k12 bonus:73 | home after 1 touch: walk 68%, dash 73%, dubki 35% | if held: pull 35%, lunge 35%
+READ my best stop: vs touch hand→thigh 33%, toe→ankle 34%, bonus→rush 35%, kick→thigh 14% | vs way home walk→thigh 28%, dash→block 41%, dubki→ankle 29% | his touch lands 95% if untackled
+GOAL: win by 1+ | STARS: Win by 4; Win by 8
+PROOF (validate, real engine): a competent player won 35/40 seeds (best 3★), a mid-skill player 39/60
+
+L34: Teach the auction: 6 lots — a star Raider and a cheap one, two Corners, two Anchors — and a 100-lakh purse against AI franchises whose valuations are shown as a market range. Aha: price the whole squad, not the lot — chase the star past ~45 and no Anchor is affordable; a lot you pass on has a cheaper twin later. Buy a Raider, a Corner and an Anchor.
+[Auction · teach · Ch4 Auction Hall] OPP MAT: o o o o o o o · grip 0.5
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: auction only
+MY MOVES: hand toe kick bonus walk dash dubki pull lunge | DEFENCE: ankle thigh block rush hold
+AUCTION (purse 154): Raider R8 open 30 market 35-65; Raider R6 open 15 market 15-30; Corner(ankle corner) open 15 market 15-32; Corner(thigh corner) open 12 market 14-28; Anchor(anchor) open 20 market 22-40; Anchor(anchor) open 15 market 18-32
+GOAL: buy Raider + Corner + Anchor | STARS: Keep 15 lakh in the purse; Keep 30 lakh in the purse
+PROOF (validate, real engine): a competent player won 39/40 seeds (best 3★), a mid-skill player 41/60
+
+L35: Teach specialists: your left corner is an Ankle specialist (A, ankle ×1.25), your right corner a Thigh specialist (T, thigh ×1.25). The raider attacks anywhere with Hand or Toe. Aha: switch to the specialist whose hold matches his move when he is in range. Stop 3 of 5.
+[Defend Stand · teach · Ch4 Auction Hall] OPP MAT: o o o o o o o · grip 1
+MY SIDE: A o o o o o T (7 on mat)
+FLOW: you defend 5 CPU raids
+MY MOVES: hand toe kick bonus walk dash dubki pull lunge | DEFENCE: ankle thigh block rush hold
+CPU RAIDER "League raider": s 0.563 · Easy · touches hand/toe · home walk/dash · up to 1 touch
+READ my best stop: vs touch hand→thigh 49%, toe→ankle 51% | vs way home walk→thigh 42%, dash→block 59% | his touch lands 84% if untackled
+GOAL: stop 3 raids | FAIL: opp scores > 5 | STARS: Stop 4 raids; Concede at most 2
+PROOF (validate, real engine): a competent player won 38/40 seeds (best 2★), a mid-skill player 36/60
+
+L36: Teach the Anchor: K in slot 4 is strong at every hold and his holds rarely slip. This raider is smarter (Medium) — he reads your specialists and touches where they're weakest. Aha: when the specialists are dodged, the Anchor covers everything in his lane. Stop 3 of 5.
+[Defend Stand · teach · Ch4 Auction Hall] OPP MAT: o o o o o o o · grip 1
+MY SIDE: A o o K o o T (7 on mat)
+FLOW: you defend 5 CPU raids
+MY MOVES: hand toe kick bonus walk dash dubki pull lunge | DEFENCE: ankle thigh block rush hold
+CPU RAIDER "League raider": s 0.719 · Medium · touches hand/toe · home walk/dash/dubki · up to 1 touch
+READ my best stop: vs touch hand→thigh 43%, toe→ankle 44% | vs way home walk→thigh 37%, dash→block 52%, dubki→ankle 38% | his touch lands 88% if untackled
+GOAL: stop 3 raids | FAIL: opp scores > 5 | STARS: Stop 4 raids; Concede at most 2
+PROOF (validate, real engine): a competent player won 24/40 seeds (best 2★), a mid-skill player 28/60
+
+L37: Twist: this raider feints — 35% of the time the telegraphed move is not the real one. Committing to the counter of a feint fails. Aha: against a bluffer use the all-round Anchor, Ankle a Dash home (works on both Dash and Dubki) and let doubtful touches go. Stop 2 of 5, concede no more than 5.
+[Defend Stand · twist · Ch4 Auction Hall] OPP MAT: o o o o o o o · grip 1
+MY SIDE: A o o K o o T (7 on mat)
+FLOW: you defend 5 CPU raids
+MY MOVES: hand toe kick bonus walk dash dubki pull lunge | DEFENCE: ankle thigh block rush hold
+CPU RAIDER "Feinting raider": s 0.914 · Easy · touches hand/toe · home walk/dash/dubki · up to 1 touch · feints 35%
+READ my best stop: vs touch hand→thigh 36%, toe→ankle 37% | vs way home walk→thigh 31%, dash→block 44%, dubki→ankle 31% | his touch lands 93% if untackled
+GOAL: stop 2 raids | FAIL: opp scores > 5 | STARS: Stop 3 raids; Concede at most 3
+PROOF (validate, real engine): a competent player won 32/40 seeds (best 2★), a mid-skill player 41/60
+
+L38: Build the squad, then play it: 6 lots (Raider, two Corners, Anchor, Cover, a second Anchor) on 100 lakh, then a 4-raid league match where YOUR buys defend and YOUR raider's stats raid. Aha: the raider's reach and speed you paid for show up in every touch. Buy a Raider, a Corner and an Anchor, then win by 1.
+[Auction · practise · Ch4 Auction Hall] OPP MAT: A T B o B T A · grip 0.825
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: alternate: 4 raids / 4 defences
+MY MOVES: hand toe kick bonus walk dash dubki pull lunge | DEFENCE: ankle thigh block rush hold
+CPU RAIDER "League raider": s 0.125 · Medium · touches hand/toe · home walk/dash · up to 1 touch
+AUCTION (purse 100): Raider R8 open 20 market 25-45; Corner(thigh corner) open 15 market 15-30; Corner(ankle corner) open 12 market 14-26; Anchor(anchor) open 20 market 20-36; Cover(cover) open 10 market 10-22; Anchor(anchor) open 15 market 18-32
+READ (real % my raider is held) touch: 1A:h25/t39 2T:h41/t28 3B:h30/t13 4o:h15/t13 5B:h30/t13 6T:h41/t28 7A:h25/t39 bonus:48 | home after 1 touch: walk 52%, dash 59%, dubki 49% | if held: pull 40%, lunge 39%
+READ my best stop: vs touch hand→thigh 69%, toe→ankle 70% | vs way home walk→thigh 59%, dash→block 79% | his touch lands 73% if untackled
+GOAL: win by 1+, buy Raider + Corner + Anchor | STARS: Win by 3; Keep 10 lakh in the purse
+PROOF (validate, real engine): a competent player won 38/40 seeds (best 3★), a mid-skill player 29/60
+
+L39: Twist: a two-touch raider — after the first touch he turns for a second defender, so the defender in range changes mid-raid. Switch to whoever covers the new target (the tap-select is instant). Aha: defend the raider's NEXT target, not the last one. Stop 3 of 5.
+[Defend Stand · twist · Ch4 Auction Hall] OPP MAT: o o o o o o o · grip 1
+MY SIDE: A o T K T o A (7 on mat)
+FLOW: you defend 5 CPU raids
+MY MOVES: hand toe kick bonus walk dash dubki pull lunge | DEFENCE: ankle thigh block rush hold
+CPU RAIDER "Two-touch raider": s 0.906 · Medium · touches hand/toe · home walk/dash · up to 2 touches
+READ my best stop: vs touch hand→thigh 45%, toe→ankle 32% | vs way home walk→thigh 39%, dash→block 45% | his touch lands 93% if untackled
+GOAL: stop 3 raids | FAIL: opp scores > 6 | STARS: Stop 4 raids; Concede at most 3
+PROOF (validate, real engine): a competent player won 26/40 seeds (best 2★), a mid-skill player 26/60
+
+L40: Combine: your specialist squad (A corners, T covers, Anchor) against a full league mat (A, T, B, R) and a Medium raider who feints 15%. Every raid is a read on both ends. 4 raids each, win by 2.
+[Match · combine · Ch4 Auction Hall] OPP MAT: A T B R B T A · grip 1.4
+MY SIDE: A T o K o T A (7 on mat)
+FLOW: alternate: 4 raids / 4 defences
+MY MOVES: hand toe kick bonus walk dash dubki pull lunge | DEFENCE: ankle thigh block rush hold
+CPU RAIDER "League star": s 0.141 · Medium · touches hand/toe · home walk/dash/dubki · up to 1 touch · feints 15%
+READ (real % my raider is held) touch: 1A:h38/t56 2T:h59/t43 3B:h54/t33 4R:h46/t43/k17 5B:h54/t33 6T:h59/t43 7A:h38/t56 bonus:78 | home after 1 touch: walk 74%, dash 79%, dubki 71% | if held: pull 33%, lunge 32%
+READ my best stop: vs touch hand→thigh 68%, toe→ankle 70% | vs way home walk→thigh 58%, dash→block 79%, dubki→ankle 60% | his touch lands 74% if untackled
+GOAL: win by 2+ | STARS: Win by 4; Concede at most 2
+PROOF (validate, real engine): a competent player won 39/40 seeds (best 3★), a mid-skill player 40/60
+
+L41: Combine auction and defence: the scouting report says their raider is a Toe-Touch specialist who Dubkis home — both beaten by Ankle holds. The Ankle Corner and the Thigh Corner cost the same. Aha: buy for the opponent you will face. Buy a Corner and an Anchor, then stop 3 of his 5 raids.
+[Auction · combine · Ch4 Auction Hall] OPP MAT: o o o o o o o · grip 1
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: you defend 5 CPU raids
+MY MOVES: hand toe kick bonus walk dash dubki pull lunge | DEFENCE: ankle thigh block rush hold
+CPU RAIDER "Toe specialist": s 0.063 · Easy · touches toe · home dubki · up to 1 touch
+AUCTION (purse 70): Corner(thigh corner) open 15 market 18-34; Corner(ankle corner) open 15 market 18-34; Anchor(anchor) open 20 market 22-38
+READ my best stop: vs touch toe→ankle 73% | vs way home dubki→ankle 63% | his touch lands 72% if untackled
+GOAL: stop 3 raids, buy Corner + Anchor | FAIL: opp scores > 5 | STARS: Stop 4 raids; Keep 10 lakh in the purse
+PROOF (validate, real engine): a competent player won 34/40 seeds (best 2★), a mid-skill player 29/60
+
+L42: Spike — the first squad-dependent test: a tight 80-lakh purse for 5 lots (a star and a budget Raider, one Corner, two Anchors), then 5 raids each against the league's Hard franchise (smart raider, 20% feints, do-or-die aware). A cheap squad loses here. Buy a Raider, a Corner and an Anchor, then win by 1.
+[Auction · spike · Ch4 Auction Hall] OPP MAT: A T R B R T A · grip 1.4
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: alternate: 5 raids / 5 defences
+MY MOVES: hand toe kick bonus walk dash dubki pull lunge | DEFENCE: ankle thigh block rush hold
+CPU RAIDER "Franchise ace": s 0.016 · Hard · touches hand/toe/bonus · home walk/dash/dubki · up to 2 touches · feints 20%
+AUCTION (purse 80): Raider R8 open 25 market 28-48; Raider R5 open 12 market 12-24; Corner(ankle corner) open 12 market 14-26; Anchor(anchor) open 18 market 20-34; Anchor(anchor) open 15 market 18-30
+READ (real % my raider is held) touch: 1A:h38/t56 2T:h65/t51 3R:h60/t42/k20 4B:h46/t43 5R:h60/t42/k20 6T:h65/t51 7A:h38/t56 bonus:85 | home after 1 touch: walk 73%, dash 63%, dubki 73% | if held: pull 33%, lunge 32%
+READ my best stop: vs touch hand→thigh 74%, toe→ankle 76%, bonus→rush 80% | vs way home walk→thigh 63%, dash→block 85%, dubki→ankle 65% | his touch lands 70% if untackled
+GOAL: win by 1+, buy Raider + Corner + Anchor | STARS: Win by 3; Keep 10 lakh in the purse
+PROOF (validate, real engine): a competent player won 35/40 seeds (best 3★), a mid-skill player 26/60
+
+L43: Breather after the squad test: your full specialist squad against an exhibition side with an easy raider. Enjoy the toolkit — bonus line open, one rusher to kick. 3 raids each, win by 2.
+[Match · breather · Ch4 Auction Hall] OPP MAT: o R o o T o o · grip 1.4
+MY SIDE: A T o K o T A (7 on mat) · raider reach 7 agi 6 spd 6
+FLOW: alternate: 3 raids / 3 defences
+MY MOVES: hand toe kick bonus walk dash dubki pull lunge | DEFENCE: ankle thigh block rush hold
+CPU RAIDER "Exhibition raider": s 0.5 · Easy · touches hand/toe · home walk · up to 1 touch
+READ (real % my raider is held) touch: 1o:h27/t25 2R:h41/t39/k12 3o:h31/t29 4o:h41/t17 5T:h56/t18 6o:h41/t17 7o:h15/t13 bonus:41 | home after 1 touch: walk 49%, dash 27%, dubki 31% | if held: pull 37%, lunge 35%
+READ my best stop: vs touch hand→thigh 52%, toe→ankle 53% | vs way home walk→thigh 44% | his touch lands 83% if untackled
+GOAL: win by 2+ | STARS: Win by 4; Concede at most 1
+PROOF (validate, real engine): a competent player won 35/40 seeds (best 3★), a mid-skill player 49/60
+
+L44: Chapter boss: auction your own squad (7 lots, 110 lakh), then play the full 2x20 Season Final with it against a Medium-Hard franchise that reads your specialists and feints. Win the match.
+[Full Match · boss · Ch4 Auction Hall] OPP MAT: A T R B R T A · grip 1.4
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: alternate raids 00:00→40:00 (~56 raids)
+MY MOVES: hand toe kick bonus walk dash dubki pull lunge | DEFENCE: ankle thigh block rush hold
+CPU RAIDER "Franchise captain": s 0.578 · Medium · touches hand/toe/bonus · home walk/dash/dubki · up to 2 touches · feints 15%
+AUCTION (purse 110): Raider R8 open 25 market 30-55; Raider R6 open 12 market 12-25; Corner(ankle corner) open 12 market 14-28; Corner(thigh corner) open 12 market 14-28; Cover(cover) open 10 market 10-22; Anchor(anchor) open 18 market 20-36; Anchor(anchor) open 15 market 18-30
+READ (real % my raider is held) touch: 1A:h38/t56 2T:h65/t51 3R:h60/t42/k20 4B:h46/t43 5R:h60/t42/k20 6T:h65/t51 7A:h38/t56 bonus:85 | home after 1 touch: walk 73%, dash 63%, dubki 73% | if held: pull 33%, lunge 32%
+READ my best stop: vs touch hand→thigh 49%, toe→ankle 50%, bonus→rush 53% | vs way home walk→thigh 42%, dash→block 58%, dubki→ankle 43% | his touch lands 84% if untackled
+GOAL: win by 1+, buy Raider + Corner + Anchor | STARS: Win by 5; Win by 10
+PROOF (validate, real engine): a competent player won 37/40 seeds (best 3★), a mid-skill player 31/60
+
+L45: Teach the Super Raid: three touches in one raid. Three touches take 21 of the 30 seconds and every touch makes the way home harder (depth ×1.7 at three). Aha: string the touches along one side (rookies first, Toe on the T's), then Dubki home before the clock. Land a Super Raid within 4 raids.
+[Super Challenge · teach · Ch5 Continental Cup] OPP MAT: o o T o T T o · grip 1.462
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: you raid 4x
+MY MOVES: hand toe kick bonus walk dash dubki pull lunge
+READ (real % my raider is held) touch: 1o:h16/t14 2o:h44/t19 3T:h60/t20 4o:h60/t20 5T:h72/t20 6T:h72/t20 7o:h40/t15 bonus:16 | home after 1 touch: walk 71%, dash 39%, dubki 28% | if held: pull 32%, lunge 31%
+GOAL: 1x superRaid | FAIL: raider out 3x | STARS: Two Super Raids; Super Raid on the first raid
+PROOF (validate, real engine): a competent player won 37/40 seeds (best 2★), a mid-skill player 42/60
+
+L46: Teach the Chain Tackle: two adjacent defenders link — strong against every touch and every way home except the Dubki, and a chained raider rarely slips. Aha: two defenders, one chain — chain the pair around his target. Land 2 chain tackles in 5 raids.
+[Defend Stand · teach · Ch5 Continental Cup] OPP MAT: o o o o o o o · grip 1
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: you defend 5 CPU raids
+MY MOVES: hand toe kick bonus walk dash dubki pull lunge | DEFENCE: ankle thigh block rush chain hold
+CPU RAIDER "Continental raider": s 1 · Easy · touches hand/toe · home walk/dash · up to 1 touch
+READ my best stop: vs touch hand→chain 26%, toe→ankle 24% | vs way home walk→chain 29%, dash→block 29% | his touch lands 95% if untackled
+GOAL: 2x chain | FAIL: opp scores > 6 | STARS: Three chain tackles; Concede at most 2
+PROOF (validate, real engine): a competent player won 30/40 seeds (best 2★), a mid-skill player 28/60
+
+L47: Twist: three defenders left — two covers either side of your Anchor — against a raider hunting a super raid (2-3 touches a raid). Any tackle from 3 is a Super Tackle (+2), but a failed tackle on the touch costs two men and brings the all-out close. Aha: let the first touch go and chain him on the way home, when every tackle still counts as Super. Land a Super Tackle within 4 raids, concede no more than 4.
+[Super Challenge · twist · Ch5 Continental Cup] OPP MAT: o o o o o o o · grip 1
+MY SIDE: - - o K o - - (3 on mat)
+FLOW: you defend 4 CPU raids
+MY MOVES: hand toe kick bonus walk dash dubki pull lunge | DEFENCE: ankle thigh block rush chain hold
+CPU RAIDER "Super raider": s 1 · Easy · touches hand/toe · home walk/dash · up to 3 touches
+READ my best stop: vs touch hand→chain 33%, toe→chain 30% | vs way home walk→chain 37%, dash→block 33% | his touch lands 95% if untackled
+GOAL: 1x superTackle | FAIL: opp scores > 4 | STARS: Super Tackle with a chain; Concede nothing
+PROOF (validate, real engine): a competent player won 34/40 seeds (best 3★), a mid-skill player 43/60
+
+L48: Teach formation themes with the Cage: two chained pairs (C C) either side of the centre. Walking or dashing home past two chains is ~60% capture; the Dubki ducks under both. Aha: in the Cage, the way home is the puzzle. Score 4 in 4 raids.
+[Raid Puzzle · teach · Ch5 Formation: Cage] OPP MAT: o C C o C C o · grip 1.2
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: you raid 4x
+MY MOVES: hand toe kick bonus walk dash dubki pull lunge
+READ (real % my raider is held) touch: 1o:h17/t15 2C:h29/t25 3C:h29/t25 4o:h25/t22 5C:h29/t25 6C:h29/t25 7o:h17/t15 bonus:13 | home after 1 touch: walk 66%, dash 68%, dubki 22% | if held: pull 23%, lunge 23%
+GOAL: score 4 | FAIL: raider out 2x | STARS: Score with 3 Dubkis; Never get caught
+PROOF (validate, real engine): a competent player won 28/40 seeds (best 2★), a mid-skill player 34/60
+
+L49: Twist theme, the Pincer: Ankle-catcher corners and Rushers inside — the bonus hop runs straight into both (≈60% capture). The free points are Kicks on the charging R's and Hand Touches on the A's. Aha: the open bonus line is the bait. Score 4 in 4 raids with a Kick.
+[Raid Puzzle · twist · Ch5 Formation: Pincer] OPP MAT: A R o B o R A · grip 1.069
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: you raid 4x
+MY MOVES: hand toe kick bonus walk dash dubki pull lunge
+READ (real % my raider is held) touch: 1A:h22/t53 2R:h34/t48/k12 3o:h27/t25 4B:h19/t17 5o:h27/t25 6R:h34/t48/k12 7A:h22/t53 bonus:76 | home after 1 touch: walk 43%, dash 47%, dubki 63% | if held: pull 41%, lunge 40%
+GOAL: score 4, 1x kick | FAIL: raider out 2x | STARS: Never get caught; Score 6 points
+PROOF (validate, real engine): a competent player won 26/40 seeds (best 2★), a mid-skill player 33/60
+
+L50: Teach DRS: close touches are called by the referee, and 'very tight' calls are wrong almost half the time ('tight' ones 1 in 5). 2 reviews: a failed review is lost. Aha: review the very tight calls, accept the merely tight. Score 5 in 5 raids.
+[Raid Puzzle · teach · Ch5 Continental Cup] OPP MAT: T T o B o T T · grip 1.134
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: you raid 5x · DRS reviews 2
+MY MOVES: hand toe kick bonus walk dash dubki pull lunge
+READ (real % my raider is held) touch: 1T:h61/t13 2T:h63/t16 3o:h38/t17 4B:h20/t18 5o:h38/t17 6T:h63/t16 7T:h61/t13 bonus:24 | home after 1 touch: walk 73%, dash 59%, dubki 24% | if held: pull 36%, lunge 35%
+GOAL: score 5 | FAIL: raider out 2x | STARS: Win a DRS review; Never get caught
+PROOF (validate, real engine): a competent player won 25/40 seeds (best 2★), a mid-skill player 28/60
+
+L51: Twist: defend against a recorded ghost raider. Its 5 raids are known before you start (toe@1 dash, hand@3 walk, bonus, hand@5 + toe@4 dubki, toe@0 dash) and replay exactly — no feints. Aha: a ghost can be solved: plan the perfect counter for each raid. Stop 4 of 5.
+[Ghost Duel · twist · Ch5 Formation: Ghost Gate] OPP MAT: o o o o o o o · grip 1
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: you defend 5 CPU raids
+MY MOVES: hand toe kick bonus walk dash dubki pull lunge | DEFENCE: ankle thigh block rush chain hold
+CPU RAIDER "Ghost raider": s 0.625 · Easy · touches hand/toe/bonus · home walk/dash/dubki · up to 1 touch · GHOST PLAN: toe@1>dash | hand@3>walk | bonus>walk | hand@5,toe@4>dubki | toe@0>dash
+READ my best stop: vs touch hand→chain 49%, toe→ankle 48%, bonus→rush 51% | vs way home walk→chain 55%, dash→block 56%, dubki→ankle 41% | his touch lands 86% if untackled
+GOAL: stop 4 raids | FAIL: opp scores > 4 | STARS: Stop all 5; Land a chain tackle
+PROOF (validate, real engine): a competent player won 30/40 seeds (best 2★), a mid-skill player 37/60
+
+L52: Combine with the Diamond theme: a Blocker at the point, Rushers on the shoulders, T's behind — and a Hard raider who chains touches. Kick the rushers, Dubki the wall, chain his deep raids. 4 raids each, win by 2.
+[Match · combine · Ch5 Formation: Diamond] OPP MAT: o T R B R T o · grip 1.6
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: alternate: 4 raids / 4 defences
+MY MOVES: hand toe kick bonus walk dash dubki pull lunge | DEFENCE: ankle thigh block rush chain hold
+CPU RAIDER "Continental raider": s 0.813 · Hard · touches hand/toe · home walk/dash/dubki · up to 2 touches · feints 10%
+READ (real % my raider is held) touch: 1o:h43/t16 2T:h70/t35 3R:h65/t46/k22 4B:h51/t47 5R:h65/t46/k22 6T:h70/t35 7o:h43/t16 bonus:66 | home after 1 touch: walk 75%, dash 67%, dubki 43% | if held: pull 30%, lunge 30%
+READ my best stop: vs touch hand→chain 43%, toe→ankle 41% | vs way home walk→chain 48%, dash→block 49%, dubki→ankle 35% | his touch lands 90% if untackled
+GOAL: win by 2+ | STARS: Win by 4; Land a Super Raid
+PROOF (validate, real engine): a competent player won 28/40 seeds (best 2★), a mid-skill player 36/60
+
+L53: Spike: the weekly ghost raided this Cage (chains, T's at the corners) 5 times and its score is on the board. Beat it in 5 raids — safe single touches won't, you need a deep raid or two — with 1 DRS review for the close calls. Two lost reviews and you're out.
+[Ghost Duel · spike · Ch5 Formation: Cage] OPP MAT: T C C o C C T · grip 1.3
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: you raid 5x · DRS reviews 1
+MY MOVES: hand toe kick bonus walk dash dubki pull lunge
+READ (real % my raider is held) touch: 1T:h56/t18 2C:h49/t28 3C:h31/t27 4o:h27/t24 5C:h31/t27 6C:h49/t28 7T:h56/t18 bonus:27 | home after 1 touch: walk 82%, dash 75%, dubki 25% | if held: pull 34%, lunge 33%
+GOAL: beat the ghost's 5 points | FAIL: raider out 3x | STARS: Win a DRS review; Land a Super Raid
+PROOF (validate, real engine): a competent player won 30/40 seeds (best 2★), a mid-skill player 29/60
+
+L54: Breather after the ghost spike: a fan-zone exhibition against a young side (rookies, one T), a Medium raider who never feints. Try the super raid for fun. 3 raids each, win by 2.
+[Match · breather · Ch5 Continental Cup] OPP MAT: o o o T o o o · grip 1.6
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: alternate: 3 raids / 3 defences
+MY MOVES: hand toe kick bonus walk dash dubki pull lunge | DEFENCE: ankle thigh block rush chain hold
+CPU RAIDER "Young raider": s 1 · Easy · touches hand/toe · home walk/dash · up to 1 touch
+READ (real % my raider is held) touch: 1o:h17/t15 2o:h23/t20 3o:h47/t21 4T:h64/t21 5o:h47/t21 6o:h23/t20 7o:h17/t15 bonus:17 | home after 1 touch: walk 49%, dash 31%, dubki 29% | if held: pull 30%, lunge 30%
+READ my best stop: vs touch hand→chain 33%, toe→ankle 30% | vs way home walk→chain 37%, dash→block 37% | his touch lands 95% if untackled
+GOAL: win by 2+ | STARS: Land a Super Raid; Win by 5
+PROOF (validate, real engine): a competent player won 36/40 seeds (best 2★), a mid-skill player 40/60
+
+L55: Chapter boss: the full 2x20 Continental Semi-Final against a Hard side that defends in the Cage and raids with feints and two-touch raids. One DRS review per match. Win the match.
+[Full Match · boss · Ch5 Continental Cup] OPP MAT: T C C B C C T · grip 1.6
+MY SIDE: o o o o o o o (7 on mat) · raider reach 7 agi 6 spd 6
+FLOW: alternate raids 00:00→40:00 (~56 raids) · DRS reviews 1
+MY MOVES: hand toe kick bonus walk dash dubki pull lunge | DEFENCE: ankle thigh block rush chain hold
+CPU RAIDER "Continental captain": s 1 · Hard · touches hand/toe/bonus · home walk/dash/dubki · up to 2 touches · feints 20%
+READ (real % my raider is held) touch: 1T:h61/t20 2C:h54/t31 3C:h36/t32 4B:h34/t30 5C:h36/t32 6C:h54/t31 7T:h61/t20 bonus:30 | home after 1 touch: walk 89%, dash 89%, dubki 30% | if held: pull 35%, lunge 33%
+READ my best stop: vs touch hand→chain 24%, toe→ankle 22%, bonus→rush 23% | vs way home walk→chain 27%, dash→block 27%, dubki→ankle 19% | his touch lands 95% if untackled
+GOAL: win by 1+ | STARS: Win by 4; Win a DRS review
+PROOF (validate, real engine): a competent player won 33/40 seeds (best 3★), a mid-skill player 24/60
+
+L56: Teach fatigue: your star raider Veer (reach 8) tires after two raids (stamina 3); Kabir (reach 6, stamina 8) can go all day. A tired raider reaches less and is held more. Aha: rotate — the star for the big raids, the workhorse in between. 6 raids each, win by 2.
+[Match · teach · Ch6 World Championship] OPP MAT: o T R B R T o · grip 1.8000000000000003
+MY SIDE: o o o o o o o (7 on mat) · raiders Veer R8 A7 S7 st3, Kabir R6 A6 S5 st8 (fatigue)
+FLOW: alternate: 6 raids / 5 defences
+MY MOVES: hand toe kick bonus walk dash dubki pull lunge | DEFENCE: ankle thigh block rush chain hold
+CPU RAIDER "World raider": s 1 · Medium · touches hand/toe · home walk/dash/dubki · up to 2 touches
+READ (real % my raider is held) touch: 1o:h44/t16 2T:h71/t35 3R:h66/t47/k22 4B:h51/t48 5R:h66/t47/k22 6T:h71/t35 7o:h44/t16 bonus:67 | home after 1 touch: walk 77%, dash 67%, dubki 43% | if held: pull 42%, lunge 33%
+READ my best stop: vs touch hand→chain 34%, toe→ankle 31% | vs way home walk→chain 38%, dash→block 38%, dubki→ankle 27% | his touch lands 95% if untackled
+GOAL: win by 2+ | STARS: Win by 4; Never get caught
+PROOF (validate, real engine): a competent player won 31/40 seeds (best 3★), a mid-skill player 35/60
+
+L57: Teach rival captains: their captain K anchors the centre — every Hand or Toe Touch near him, and every way home, is 0.42 danger. His one weakness: he chases, and a Backward Kick (legal after a first touch) tags him at 5%. Aha: touch a corner first, then kick the captain as he comes. Score 5 in 4 raids.
+[Raid Puzzle · teach · Ch6 World Championship] OPP MAT: o T A K A T o (captain weak to kick) · grip 0.758
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: you raid 4x
+MY MOVES: hand toe kick bonus walk dash dubki pull lunge
+READ (real % my raider is held) touch: 1o:h24/t8 2T:h38/t26 3A:h34/t45 4K:h31/t52 5A:h34/t45 6T:h38/t26 7o:h24/t8 bonus:9 | home after 1 touch: walk 53%, dash 37%, dubki 56% | if held: pull 34%, lunge 34%
+GOAL: score 5 | FAIL: raider out 2x | STARS: Kick the captain twice; Never get caught
+PROOF (validate, real engine): a competent player won 28/40 seeds (best 2★), a mid-skill player 23/60
+
+L58: Rival raider: the Dubki King always ducks home — under thighs (12%), chains (20%) and walls (14%). Only the Ankle Hold (72%) reads the dubki. Aha: a signature move is a promise — let the touch go and ankle him on the way home. Stop 3 of 5.
+[Defend Stand · teach · Ch6 World Championship] OPP MAT: o o o o o o o · grip 1
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: you defend 5 CPU raids
+MY MOVES: hand toe kick bonus walk dash dubki pull lunge | DEFENCE: ankle thigh block rush chain hold
+CPU RAIDER "The Dubki King": s 0.625 · Hard · touches hand/toe · home dubki · up to 2 touches
+READ my best stop: vs touch hand→chain 49%, toe→ankle 48% | vs way home dubki→ankle 41% | his touch lands 86% if untackled
+GOAL: stop 3 raids | FAIL: opp scores > 6 | STARS: Stop 4 raids; Concede at most 3
+PROOF (validate, real engine): a competent player won 37/40 seeds (best 2★), a mid-skill player 41/60
+
+L59: Twist on rival raiders: the Feint Master's telegraph lies half the time. The chain (66% vs Hand, 60% vs Toe) doesn't care which touch is real; the Ankle covers both Dash and Dubki home. Aha: when you can't read him, defend with the move that has no weakness. Stop 3 of 5.
+[Defend Stand · twist · Ch6 World Championship] OPP MAT: o o o o o o o · grip 1
+MY SIDE: o o T K A o o (7 on mat)
+FLOW: you defend 5 CPU raids
+MY MOVES: hand toe kick bonus walk dash dubki pull lunge | DEFENCE: ankle thigh block rush chain hold
+CPU RAIDER "The Feint Master": s 1 · Medium · touches hand/toe · home walk/dash/dubki · up to 2 touches · feints 50%
+READ my best stop: vs touch hand→chain 34%, toe→ankle 35% | vs way home walk→chain 38%, dash→block 34%, dubki→ankle 30% | his touch lands 95% if untackled
+GOAL: stop 3 raids | FAIL: opp scores > 6 | STARS: Stop 4 raids; Two chain tackles
+PROOF (validate, real engine): a competent player won 18/40 seeds (best 2★), a mid-skill player 30/60
+
+L60: Combine: the last 15 minutes of a group match, 18-18, with three raiders to rotate (one star, two workhorses) against a mat anchored by a rival captain weak to the Toe Touch. Fatigue decides it. Win by 1.
+[Match · combine · Ch6 World Championship] OPP MAT: R T A K A T R (captain weak to toe) · grip 1.8000000000000003
+MY SIDE: o o o o o o o (7 on mat) · raiders Veer R8 A7 S7 st3, Kabir R6 A6 S5 st8, Dev R6 A7 S6 st6 (fatigue)
+FLOW: alternate raids 25:00→40:00 (~21 raids) · start score 18-18
+MY MOVES: hand toe kick bonus walk dash dubki pull lunge | DEFENCE: ankle thigh block rush chain hold
+CPU RAIDER "World raider": s 1 · Hard · touches hand/toe/bonus · home walk/dash/dubki · up to 2 touches · feints 15%
+READ (real % my raider is held) touch: 1R:h62/t43/k16 2T:h70/t56 3A:h60/t63 4K:h55/t63 5A:h60/t63 6T:h70/t56 7R:h62/t43/k16 bonus:83 | home after 1 touch: walk 86%, dash 63%, dubki 86% | if held: pull 28%, lunge 19%
+READ my best stop: vs touch hand→chain 35%, toe→ankle 32%, bonus→rush 34% | vs way home walk→chain 39%, dash→block 39%, dubki→ankle 28% | his touch lands 95% if untackled
+GOAL: win by 1+ | STARS: Win by 3; Never get caught
+PROOF (validate, real engine): a competent player won 31/40 seeds (best 2★), a mid-skill player 29/60
+
+L61: Combine: the Cage with a rival captain locking its centre. The captain is weak to the Dubki home — but the chains beside him also hate it, so the Dubki is the only way home. Find the touches (Toe on the corners, Kick on the captain) and duck out. Score 6 in 5 raids.
+[Raid Puzzle · combine · Ch6 Formation: Cage] OPP MAT: o C C K C C o (captain weak to dubki) · grip 1.069
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: you raid 5x
+MY MOVES: hand toe kick bonus walk dash dubki pull lunge
+READ (real % my raider is held) touch: 1o:h16/t14 2C:h26/t23 3C:h38/t36 4K:h46/t45 5C:h38/t36 6C:h26/t23 7o:h16/t14 bonus:12 | home after 1 touch: walk 72%, dash 74%, dubki 21% | if held: pull 28%, lunge 28%
+GOAL: score 6 | FAIL: raider out 2x | STARS: Land a Super Raid; Never get caught
+PROOF (validate, real engine): a competent player won 29/40 seeds (best 3★), a mid-skill player 33/60
+
+L62: Combine with the Wall theme: four Blockers and a captain weak to the Toe Touch, against a Hard feinting raider. The Dash is dead on this mat; review the very tight calls. 5 raids each, win by 1.
+[Match · combine · Ch6 Formation: Wall] OPP MAT: B B T K T B B (captain weak to toe) · grip 1.8000000000000003
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: alternate: 5 raids / 5 defences · DRS reviews 1
+MY MOVES: hand toe kick bonus walk dash dubki pull lunge | DEFENCE: ankle thigh block rush chain hold
+CPU RAIDER "World raider": s 1 · Hard · touches hand/toe · home walk/dash/dubki · up to 2 touches · feints 25%
+READ (real % my raider is held) touch: 1B:h28/t24 2B:h56/t29 3T:h77/t24 4K:h83/t21 5T:h77/t24 6B:h56/t29 7B:h28/t24 bonus:25 | home after 1 touch: walk 90%, dash 98%, dubki 63% | if held: pull 14%, lunge 13%
+READ my best stop: vs touch hand→chain 26%, toe→ankle 24% | vs way home walk→chain 29%, dash→block 29%, dubki→ankle 20% | his touch lands 95% if untackled
+GOAL: win by 1+ | STARS: Win by 3; Win a DRS review
+PROOF (validate, real engine): a competent player won 25/40 seeds (best 3★), a mid-skill player 30/60
+
+L63: Breather before the last push: a lap-of-honour friendly against a veterans' side (rookies and one T) with a slow raider. 3 raids each, win by 2; 3 stars for a Super Raid.
+[Match · breather · Ch6 World Championship] OPP MAT: o o T o o o - · grip 1.8000000000000003
+MY SIDE: o o o o o o o (7 on mat)
+FLOW: alternate: 3 raids / 3 defences
+MY MOVES: hand toe kick bonus walk dash dubki pull lunge | DEFENCE: ankle thigh block rush chain hold
+CPU RAIDER "Veteran raider": s 0.969 · Easy · touches hand/toe · home walk · up to 1 touch
+READ (real % my raider is held) touch: 1o:h19/t17 2o:h51/t23 3T:h68/t24 4o:h51/t23 5o:h25/t22 6o:h19/t17 bonus:19 | home after 1 touch: walk 50%, dash 31%, dubki 28% | if held: pull 28%, lunge 27%
+READ my best stop: vs touch hand→chain 37%, toe→ankle 35% | vs way home walk→chain 42% | his touch lands 94% if untackled
+GOAL: win by 2+ | STARS: Win by 4; Land a Super Raid
+PROOF (validate, real engine): a competent player won 27/40 seeds (best 2★), a mid-skill player 36/60
+
+L64: Spike: the last 5 minutes of a world group decider, 20-24 down with only 2 on the mat. Every tackle is a Super Tackle and every point revives; lose them both and the all-out ends it. Win by 1.
+[Revival Run · spike · Ch6 World Championship] OPP MAT: o T A K A T o (captain weak to kick) · grip 1.8000000000000003
+MY SIDE: - - o - o - - (2 on mat)
+FLOW: alternate raids 35:00→40:00 (~7 raids) · start score 20-24
+MY MOVES: hand toe kick bonus walk dash dubki pull lunge | DEFENCE: ankle thigh block rush chain hold
+CPU RAIDER "World raider": s 0.625 · Hard · touches hand/toe · home walk/dash/dubki · up to 2 touches · feints 15%
+READ (real % my raider is held) touch: 1o:h47/t18 2T:h68/t50 3A:h63/t76 4K:h59/t83 5A:h63/t76 6T:h68/t50 7o:h47/t18 bonus:19 | home after 1 touch: walk 83%, dash 66%, dubki 86% | if held: pull 14%, lunge 13%
+READ my best stop: vs touch hand→thigh 47%, toe→ankle 48% | vs way home walk→thigh 40%, dash→block 56%, dubki→ankle 41% | his touch lands 86% if untackled
+GOAL: win by 1+ | FAIL: trail by > 9 | STARS: Win by 3; Finish with all 7
+PROOF (validate, real engine): a competent player won 17/40 seeds (best 3★), a mid-skill player 25/60
+
+L65: The World semi-final second half: 2 points down at half-time against the champions' feinting raider and a captain weak to the Kick, with two raiders to rotate and one DRS review. Win by 1.
+[Comeback · spike · Ch6 World Championship] OPP MAT: R T A K A T R (captain weak to kick) · grip 1.8000000000000003
+MY SIDE: o o o o o o o (7 on mat) · raiders Veer R8 A7 S7 st4, Kabir R6 A6 S5 st8 (fatigue)
+FLOW: alternate raids 20:00→40:00 (~28 raids) · start score 14-16 · DRS reviews 1
+MY MOVES: hand toe kick bonus walk dash dubki pull lunge | DEFENCE: ankle thigh block rush chain hold
+CPU RAIDER "Champion raider": s 0.867 · Hard · touches hand/toe/bonus · home walk/dash/dubki · up to 2 touches · feints 30%
+READ (real % my raider is held) touch: 1R:h62/t43/k16 2T:h70/t56 3A:h60/t73 4K:h55/t80 5A:h60/t73 6T:h70/t56 7R:h62/t43/k16 bonus:83 | home after 1 touch: walk 86%, dash 63%, dubki 86% | if held: pull 28%, lunge 19%
+READ my best stop: vs touch hand→chain 41%, toe→ankle 39%, bonus→rush 41% | vs way home walk→chain 46%, dash→block 46%, dubki→ankle 33% | his touch lands 92% if untackled
+GOAL: win by 1+ | STARS: Win by 4; Win a DRS review
+PROOF (validate, real engine): a competent player won 32/40 seeds (best 3★), a mid-skill player 21/60
+
+L66: Final boss on Hard: the full 2x20 World Final. Their captain anchors a Pincer-Cage mat (weak to the Kick), their raider is the Feint Master with a Dubki home, and you rotate three raiders through fatigue with one DRS review. Finish ahead.
+[Full Match · boss · Ch6 World Championship] OPP MAT: A C R K R C A (captain weak to kick) · grip 1.8000000000000003
+MY SIDE: o o o o o o o (7 on mat) · raiders Veer R8 A7 S7 st4, Kabir R6 A6 S5 st8, Dev R6 A7 S6 st6 (fatigue)
+FLOW: alternate raids 00:00→40:00 (~56 raids) · DRS reviews 1
+MY MOVES: hand toe kick bonus walk dash dubki pull lunge | DEFENCE: ankle thigh block rush chain hold
+CPU RAIDER "World captain": s 1 · Hard · touches hand/toe/bonus · home walk/dash/dubki · up to 3 touches · feints 30%
+READ (real % my raider is held) touch: 1A:h22/t64 2C:h44/t60 3R:h63/t61/k19 4K:h70/t69 5R:h63/t61/k19 6C:h44/t60 7A:h22/t64 bonus:89 | home after 1 touch: walk 71%, dash 56%, dubki 86% | if held: pull 28%, lunge 19%
+READ my best stop: vs touch hand→chain 31%, toe→ankle 29%, bonus→rush 30% | vs way home walk→chain 35%, dash→block 35%, dubki→ankle 25% | his touch lands 95% if untackled
+GOAL: win by 1+ | STARS: Win by 4; Win by 8
+PROOF (validate, real engine): a competent player won 34/40 seeds (best 3★), a mid-skill player 35/60
+

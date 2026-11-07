@@ -1,0 +1,4 @@
+L63 g=1.29 s=0.44 w=1 casual 89% mid 96% (aim 70%) skilled 96%
+L64 g=1.32 s=0.68 w=1 casual 63% mid 65% (aim 60%) skilled 77%
+L65 g=1.10 s=0.66 w=1 casual 62% mid 60% (aim 60%) skilled 70%
+L66 g=1.31 s=0.69 w=1 casual 70% mid 77% (aim 56%) skilled 85%

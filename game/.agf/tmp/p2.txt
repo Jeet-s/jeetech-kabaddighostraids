@@ -1,0 +1,2 @@
+L61 g=0.8 g=0.80 s=- casual 68 mid 69 skilled 83
+L61 g=0.9 g=0.90 s=- casual 63 mid 59 skilled 81

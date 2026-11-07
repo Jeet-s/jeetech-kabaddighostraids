@@ -1,0 +1,52 @@
+PASS level_intents: all 66 levels have a specific intent
+PASS no_filler_levels: no trivial filler levels after the tutorial
+FAIL level_design: level-design review 7/10 (bar 8), 12 level(s) below 6/10: The set has a clear verb-by-verb teaching ladder, well-placed breathers and distinctive chapter bosses. Weaknesses: the difficulty cliff in Ch5-6, gem percentages that reduce choices to reading a number, repeated Ch1 filler, near-duplicate defence drills, thin ghost-PvP content, and boss units that stack too many mechanics. Several units are fair but forgettable. L5, L19, L45, L48, L52, L55, L59 and L66 are overtuned or unfair. Curve: Strong spine: the verbs arrive one at a time and each chapter ends in a boss. Ch1 teaches hand touch, walk home and the first holds. Ch2 adds toe, dubki, bonus, block and the empty-raid counter. Ch3 adds kick, rush, lunge and the all-out. Ch4 adds the auction, specialists and feints. Ch5 adds super raid, chain and formation themes. Ch6 adds fatigue and rival captains. Breathers (L8, L21, L32, L43, L54, L63) are placed well and are fun toys. The Ch6 and Ch5 bosses are ambitious.
+
+Problems:
+1. The curve is a cliff, not a slope. Skilled win rates run 90-99% in Ch1, 85-96% in Ch2, 75-90% in Ch3, then 55-77% for L45-L66. L66 is 44% casual / 73% skilled, and mid-skill players win only 58%. Mid-skill sits at 62-70% for most of Ch5-6, which means 30-40% fail rates on units that stack many concepts. That is a retention wall, and no hint or assist layer is mentioned.
+2. The gem READ percentages make most decisions look solved. 'Lowest % wins' is a spreadsheet exercise. Several units say outright that the gems are a recommendation in disguise.
+3. Late units are combination soups. L52, L55, L60, L62 and L66 each stack 6-8 mechanics, which breaks the 'introduce alone, then combine' rule. Many Ch6 units also have no fresh verb. Only fatigue, rival captains and the Wall are new.
+4. Ch1 is too long and too repetitive for a first-session hook. Ten trials of hand touch plus walk or dash home, with 99-100% skilled win rates, is thin.
+5. The set is the single-player slice only. Auction appears three times (L34, L42, L41) and is solved by arithmetic. The reasons to return are not in the trials: ladder, Ghost Gate, season rewards and Kit Album. Only L21, L51 and L53 touch ghost play, and the headline mode (async ghost PvP) gets about 3 units out of 66.
+6. Controls are heavy for a phone: 9 raid moves, 7 defence actions, and a raider choice per raid. Teaching 22 options at once (L23 onward) is a lot.
+
+Fixes: compress Ch1 to about 7 units. Add assist modes or retry hints from Ch5 on. Retune the late bosses toward 70-80% skilled wins. Add true practise units that reuse mastered verbs.
+REDESIGN THESE LEVELS (keep the ones not listed):
+L52 (4/10): 55% casual / 68% mid, with a grip of 1.17, six stacked mechanics and scouting. Mid-skill players will fail. → Cut scouting and the margin; make it win by 1.
+L55 (4/10): 59% casual, 54% mid-skill, with a 1.48 grip, a mid-match reversal, feints, DRS and chain. It stacks too many things and the 20-minute run gets long. → Cut the length and lower the grip.
+L59 (4/10): 28/40 competent and 66% mid-skill, the weakest numbers of a teaching unit, and best 2★. Overtuned. → Lower the feint rate.
+L19 (5/10): Mid-skill 73% and competent only 34/40 on an intro unit, with 6 on mat. The failure condition is harsh. Do-or-Die as a defence lesson is muddled (only the opponent's raid is forced). → Start with 7 on mat, or drop the 'all 7' star, and cut the revive rule from this unit.
+L40 (5/10): 64% casual, 72% mid-skill and 7 verbs at once for a chapter-end spike before the boss. It reads as an unfair wall. → Cut the mat to 2 counters and ease the casual rate.
+L45 (5/10): 62% mid-skill and the goal needs 21 of the 30 s, a first-time lesson that is a hard test. T's held 47%. → Use a soft mat with 3 adjacent rookies, and lengthen the clock.
+L48 (5/10): 63% casual / 77% skilled, with the home gems at 60-62% for walk and dash; only one decent option remains. → Lower the walk or dash risk.
+L49 (5/10): Mid-skill 72% and competent 30/40 on an intro twist. Hop and kick lessons conflict. → Focus on one lesson.
+L60 (5/10): Too many ideas, 62% mid-skill. → Split it into two units.
+L62 (5/10): Dash 90% held, so the scouting penalty makes the options shrink; 62% casual. → Remove scouting.
+L64 (5/10): Gems at 50-86% held and a 4-man mat; 64% mid-skill. Hard CPU. → Lower the gems.
+L66 (5/10): 44% casual and 58% mid-skill, a grip of 1.59, the opening deficit, and it tests 3 things at once in 15 raids. That is brutal for a final. → Target about 65% mid-skill, start at 0-1, and make the three tests visible.
+L1 (6/10): Near-zero fail rate (99-100%), and the 1-point goal needs no thinking. The only lesson is that a touch counts once you are home. → Fold into the 90 s tutorial, or give it a 2-point goal and a visible 'touch counts only when home' referee beat.
+L4 (6/10): The telegraph and the gem make it a pure lookup. Skilled players pass 96% and the drill sits at 87% casual. → Add a second raider mix and tighten the timing ring so skill matters, not just matching.
+L6 (6/10): The 82/100/55 cover ring is nearly a copy of L4's drill, and the stated aha is a numeric rule rather than a choice. → Combine with L4's drill, or make the raider's target vary so players must pick covers dynamically.
+L12 (6/10): Seven T's means Toe is clearly best, so this is a one-click puzzle. → Add one rookie trap slot or a hold-on-Toe cost.
+L15 (6/10): A defend stand again, with the aha rule as a number lookup (Dash=Block, walk=Thigh). → Make the block timing the difficulty, and mix in feints later.
+L25 (6/10): The unit is a lookup again, 69% casual, and the rush cost is unclear. → Add a rush timing ring and a fail penalty.
+L27 (6/10): The SCOUTED tag penalises repeating a move, which is a reasonable twist. But the solution is 'just alternate', so it is dull. → Add a mat where the alternate move is the weak one.
+L28 (6/10): A script-following solution, where the order of touches is fixed. → Add a decoy slot and a revival risk.
+L32 (6/10): Win by 2 is not a breather. → Win by 1 and a toy bonus trophy.
+L35 (6/10): The 1.25 multiplier is a small effect. → Make the effect larger or visible.
+L36 (6/10): 69% casual, and the ring gives away the answer. → Add an extra consideration beyond range.
+L38 (6/10): 91% casual / 98% skilled, a lead-protect lesson with trivial stakes. → Lower the lead and add the end-game Do-or-Die.
+L41 (6/10): Two goals in one, and the auction is a math solve. → Show the scouting report earlier.
+
+level-design score 7/10 — The set has a clear verb-by-verb teaching ladder, well-placed breathers and distinctive chapter bosses. Weaknesses: the difficulty cliff in Ch5-6, gem percentages that reduce choices to reading a number, repeated Ch1 filler, near-duplicate defence drills, thin ghost-PvP content, and boss units that stack too many mechanics. Several units are fair but forgettable. L5, L19, L45, L48, L52, L55, L59 and L66 are overtuned or unfair.
+curve: Strong spine: the verbs arrive one at a time and each chapter ends in a boss. Ch1 teaches hand touch, walk home and the first holds. Ch2 adds toe, dubki, bonus, block and the empty-raid counter. Ch3 adds kick, rush, lunge and the all-out. Ch4 adds the auction, specialists and feints. Ch5 adds super raid, chain and formation themes. Ch6 adds fatigue and rival captains. Breathers (L8, L21, L32, L43, L54, L63) are placed well and are fun toys. The Ch6 and Ch5 bosses are ambitious.
+
+Problems:
+1. The curve is a cliff, not a slope. Skilled win rates run 90-99% in Ch1, 85-96% in Ch2, 75-90% in Ch3, then 55-77% for L45-L66. L66 is 44% casual / 73% skilled, and mid-skill players win only 58%. Mid-skill sits at 62-70% for most of Ch5-6, which means 30-40% fail rates on units that stack many concepts. That is a retention wall, and no hint or assist layer is mentioned.
+2. The gem READ percentages make most decisions look solved. 'Lowest % wins' is a spreadsheet exercise. Several units say outright that the gems are a recommendation in disguise.
+3. Late units are combination soups. L52, L55, L60, L62 and L66 each stack 6-8 mechanics, which breaks the 'introduce alone, then combine' rule. Many Ch6 units also have no fresh verb. Only fatigue, rival captains and the Wall are new.
+4. Ch1 is too long and too repetitive for a first-session hook. Ten trials of hand touch plus walk or dash home, with 99-100% skilled win rates, is thin.
+5. The set is the single-player slice only. Auction appears three times (L34, L42, L41) and is solved by arithmetic. The reasons to return are not in the trials: ladder, Ghost Gate, season rewards and Kit Album. Only L21, L51 and L53 touch ghost play, and the headline mode (async ghost PvP) gets about 3 units out of 66.
+6. Controls are heavy for a phone: 9 raid moves, 7 defence actions, and a raider choice per raid. Teaching 22 options at once (L23 onward) is a lot.
+
+Fixes: compress Ch1 to about 7 units. Add assist modes or retry hints from Ch5 on. Retune the late bosses toward 70-80% skilled wins. Add true practise units that reuse mastered verbs.

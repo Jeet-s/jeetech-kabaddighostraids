@@ -1,0 +1,6 @@
+L48 g=1.05 s=- w=1 casual 62% (aim 58%) skilled 74%
+L49 g=0.94 s=- w=1 casual 53% (aim 54%) skilled 73%
+L50 g=0.94 s=- w=1 casual 57% (aim 56%) skilled 77%
+L52 g=1.19 s=0.68 w=1 casual 52% (aim 50%) skilled 73%
+L56 g=1.32 s=0.70 w=1 casual 65% (aim 54%) skilled 89%
+L45 g=0.99 s=- w=1 casual 64% (aim 60%) skilled 83%

@@ -1,0 +1,2 @@
+L62 g=1.10 s=0.65 w=1 casual 62% mid 68% (aim 56%) skilled 84%
+L62 g=1.10 s=0.65 w=1 casual 62% mid 68% (aim 56%) skilled 84%

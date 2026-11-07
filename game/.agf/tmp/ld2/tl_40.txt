@@ -1,0 +1,2 @@
+L40 g=1.08 s=0.68 w=1 casual 78% mid 72% (aim 66%) skilled 85%
+L40 g=1.08 s=0.68 w=1 casual 78% mid 72% (aim 66%) skilled 85%

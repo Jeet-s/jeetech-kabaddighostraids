@@ -1,0 +1,118 @@
+PASS level_intents: all 66 levels have a specific intent
+PASS no_filler_levels: no trivial filler levels after the tutorial
+FAIL level_design: level-design review 6.5/10 (bar 8), 5 level(s) below 6/10: Strong systems design: readable counters (Thigh, Ankle, Block, Rush, Chain), transparent gem percentages, mid-match reversals and a good teach/twist/combine/spike/boss rhythm. Four things hold it back.
+
+1. **Repetition.** Many trials re-teach the same idea: Dubki home (L14, L24, L48, L53, L62), a Kick on rushers (L23, L43), chain tackles (L46, L63), feints (L37, L59), Super Tackle from 3 (L26, L47), and "match the hold to the telegraph" (L4, L41, L58).
+
+2. **Data and intent contradictions.**
+- L43, L49 and L61 have best 3★ of 2, so 3★ may be unreachable.
+- L54 and L63 are labelled breathers, but competent win rates are 65% and 78%.
+- L49 and L62 state numbers the READ rows contradict.
+- L23 and L65 hide a Kick miss rate that the gem doesn't show.
+- L26 shows almost no skill gradient (76% casual vs 78% skilled).
+
+3. **Difficulty and decision depth.** Late chapters pile on grip: every gem is 50% or more and every way home is 55% or more. The decision then collapses to "pick the lowest number" or a coin flip. L52, L55 and L66 are the worst cases. The pull and lunge odds (19-27%) make the Struggle mini-game nearly pointless in those trials.
+
+4. **Missing pillars.** Ghost PvP, the auction and the squad build appear in only about 6 of the 66 units. The drag-path and timing skill that the controls promise never shows up as content: every outcome is a printed gem percentage. There is no career or league-season structure and no unlock payoff in the content. Curve: The 6-chapter, 11-trial cadence (teach, twist, combine, spike, breather, boss) is clear and mostly respects "alone first, then combined". It is also predictable, and it never changes shape after Ch1.
+
+**Introduction pacing**
+- Ch1 spends 11 trials on Hand Touch, walk, Dash and the Thigh/Ankle holds. That is safe but slow.
+- Bonus line (L18), Dubki (L14), Kick (L23), Rush (L25), scouting (L27), specialists/Anchor (L35-36), chain (L46) and formation themes (L48) arrive late.
+- The Auction, a headline pillar, first appears at L34 and gets only 4 trials (L34, L41, L42, L44). The Ghost Ladder, another headline pillar, is touched by 3 trials (L21, L51, L53). Introduce both optionally in Ch1-2.
+
+**Difficulty**
+- Ch1-2 are smooth, with mid-skill win rates of 80-99%.
+- From Ch3 onward, mid-skill win rates fall below 70% and hit 46% on the final. Teach trials such as L23, L45, L48, L56 and L59 sit at 61-73%.
+- The Ch5 spikes at L52 and L54 and the final L66 are harsher than the Ch6 trials around them.
+- Gem percentages of 55-90% for most options in L33, L55, L62 and L66 turn skill into dice.
+
+**Breathers**
+- L8, L21, L32 and L43 work.
+- L54 and L63 do not. Their competent win rates (65% and 78%) don't match the label.
+
+**Boss placement and difficulty**
+- L11 is too easy (90% mid-skill) and L44 is too hard (59% mid-skill).
+- L66 is a strong mastery test, but 46% mid-skill with a 0-2 start and the highest grip risks a wall of frustration.
+
+**Reasons to return**
+- There is no visible link from trials to the squad. Auction purchases barely matter in L34-L42.
+- There are no Ghost Ladder, Kit Album or season-cup units.
+- Ch6 mostly repeats Ch3-5 verbs with higher numbers instead of adding one new idea (for example, a squad-vs-squad league trial or a ghost-gate defence puzzle).
+
+**Fixes**
+- Cap the grip at about 1.2.
+- Validate that 3★ is reachable.
+- Fold the duplicate lessons into combine trials.
+- Add one real new mode per chapter.
+REDESIGN THESE LEVELS (keep the ones not listed):
+L26 (5/10): Casual 76 vs skilled 78 = luck; two-touch raider can concede 2 in one raid and fail the cap of 1. → Cap at 2 conceded, make first raid 1 touch, or show probabilities.
+L43 (5/10): Repeat of L23 with the same mat; best 2★ means the 3★ was never achieved in 40 runs. → Replace with a different toy (combo bonus-streak) and make 3★ achievable.
+L49 (5/10): Intent says bonus 'one in three held' but READ shows 48%; best 2★ means 3★ unreachable. → Fix numbers and verify 3★.
+L54 (5/10): Competent 26/40 and mid 67; not a breather. → Lower the depth multiplier and add a fourth raid.
+L63 (5/10): Repeat of L46 chain; competent 31/40 is not a breather; data inconsistent. → Remove or make it a reward unit.
+L21 (6/10): Ghost is a core pillar but is introduced at L21 as a plain 4-point score chase that duplicates L18 (bonus + touches). → Make the ghost's recorded raids visible and beatable by specific route; introduce the Ghost Lab; move to Ch1-2 start.
+L24 (6/10): Dubki-home repeat of L14; pull and lunge are both 40%, so the lunge choice barely matters. → Make lunge clearly better at 0-1 touches (55-60%) and pull better deep.
+L46 (6/10): Chain (43-47%) is not better than the matching single hold (51/50%), so the new verb is mostly dominated. → Make chain work when the telegraph is unknown, or boost it to 60%.
+L47 (6/10): Same as L26 with a chain; only a reskin. → Merge or make it a 2-man chain trap on a blocker wall.
+L48 (6/10): Dubki-home repeat (3rd time); mid-skill 73%; theme arrives late for a weekly feature. → Introduce themes in Ch2 and give another answer besides Dubki.
+L50 (6/10): Claims an 'easy mat' but T gems are 48%; one wrong call fails the trial. → Lower grip, give 3 reviews.
+L52 (6/10): Competent 28/40 and mid 62; hardest so far and a spike in a combine slot. → Lower grip or win by 1.
+L56 (6/10): Taught on a full diamond mat so fatigue is lost in noise; tags chain/super raid unrelated. → Use a soft mat.
+L58 (6/10): Duplicate of L41/L37 telegraph counters; ankle 36% only. → Add a signature-specific counter.
+L59 (6/10): Disguised repeat of L37 with new numbers; competent 29/40. → Merge with L37 or give a new tell.
+L61 (6/10): READ shows dubki 35% lower than dash 44%, contradicting 'Dash is the weakness'; best 2★. → Fix numbers and 3★.
+L62 (6/10): Claim walk is low and dubki scouted contradicts READ (walk 61, dubki 45); repeat of L14. → Rebalance.
+L1 (7/10): Almost no decision (all slots equal, 99-100% win); the 'touch counts once home' lesson is never really tested because the ring/timer pressure is absent. → Add one failure demo: first raid shows a touch that is cancelled when the raider is held on the way home. Keep short.
+L2 (7/10): Solid, but the safe pair is unmistakable from the gem numbers (8 vs 15-20). → Make the gem differences smaller on screen at first or make the rookie pair non-adjacent to the corners so the player must read the traits.
+L3 (7/10): Dash 8-10% vs walk 20-26% strictly dominates, so there is no trade-off; Dash is just 'better'. → Give Dash a cost here (e.g. only valid after 1 touch, or higher risk vs one slot) so it is a choice.
+L4 (7/10): Defence tutorial arrives with 5 raids and shows percentages (27/70) that make the answer trivial; the real skill (ring timing) is not exercised. → Reduce reliance on % gems; add one raid where the player must time the ring on a slower raider.
+L5 (7/10): Dash home (5-7%) dominates walk again; 'win within 2 raids' star is near impossible for casuals. → Make the star 'win within 3 raids' and add a Dash cost so walk is sometimes right.
+L6 (7/10): Overlaps L4 (same single-raider, same holds); Thigh always right so the only decision is who, which is worth a unit but easily merged. → Merge into a longer L4/L6 combined drill or add a raider who mixes Toe so both ideas are needed.
+L7 (7/10): Struggle is introduced inside a hard-ish mat (competent 35/40), and the pull is a coin flip with no skill expression listed. → Add a perfect-escape timing window with a visible bonus and lower grip so the first hold is survivable.
+L8 (7/10): A 'breather' with competent 35/40; the LOBBY moment is nice but it removes a T so the re-read is easy. → Lower the CPU/grip for breather feel, and have the call change something non-obvious (e.g. move a rookie).
+
+level-design score 6.5/10 — Strong systems design: readable counters (Thigh, Ankle, Block, Rush, Chain), transparent gem percentages, mid-match reversals and a good teach/twist/combine/spike/boss rhythm. Four things hold it back.
+
+1. **Repetition.** Many trials re-teach the same idea: Dubki home (L14, L24, L48, L53, L62), a Kick on rushers (L23, L43), chain tackles (L46, L63), feints (L37, L59), Super Tackle from 3 (L26, L47), and "match the hold to the telegraph" (L4, L41, L58).
+
+2. **Data and intent contradictions.**
+- L43, L49 and L61 have best 3★ of 2, so 3★ may be unreachable.
+- L54 and L63 are labelled breathers, but competent win rates are 65% and 78%.
+- L49 and L62 state numbers the READ rows contradict.
+- L23 and L65 hide a Kick miss rate that the gem doesn't show.
+- L26 shows almost no skill gradient (76% casual vs 78% skilled).
+
+3. **Difficulty and decision depth.** Late chapters pile on grip: every gem is 50% or more and every way home is 55% or more. The decision then collapses to "pick the lowest number" or a coin flip. L52, L55 and L66 are the worst cases. The pull and lunge odds (19-27%) make the Struggle mini-game nearly pointless in those trials.
+
+4. **Missing pillars.** Ghost PvP, the auction and the squad build appear in only about 6 of the 66 units. The drag-path and timing skill that the controls promise never shows up as content: every outcome is a printed gem percentage. There is no career or league-season structure and no unlock payoff in the content.
+curve: The 6-chapter, 11-trial cadence (teach, twist, combine, spike, breather, boss) is clear and mostly respects "alone first, then combined". It is also predictable, and it never changes shape after Ch1.
+
+**Introduction pacing**
+- Ch1 spends 11 trials on Hand Touch, walk, Dash and the Thigh/Ankle holds. That is safe but slow.
+- Bonus line (L18), Dubki (L14), Kick (L23), Rush (L25), scouting (L27), specialists/Anchor (L35-36), chain (L46) and formation themes (L48) arrive late.
+- The Auction, a headline pillar, first appears at L34 and gets only 4 trials (L34, L41, L42, L44). The Ghost Ladder, another headline pillar, is touched by 3 trials (L21, L51, L53). Introduce both optionally in Ch1-2.
+
+**Difficulty**
+- Ch1-2 are smooth, with mid-skill win rates of 80-99%.
+- From Ch3 onward, mid-skill win rates fall below 70% and hit 46% on the final. Teach trials such as L23, L45, L48, L56 and L59 sit at 61-73%.
+- The Ch5 spikes at L52 and L54 and the final L66 are harsher than the Ch6 trials around them.
+- Gem percentages of 55-90% for most options in L33, L55, L62 and L66 turn skill into dice.
+
+**Breathers**
+- L8, L21, L32 and L43 work.
+- L54 and L63 do not. Their competent win rates (65% and 78%) don't match the label.
+
+**Boss placement and difficulty**
+- L11 is too easy (90% mid-skill) and L44 is too hard (59% mid-skill).
+- L66 is a strong mastery test, but 46% mid-skill with a 0-2 start and the highest grip risks a wall of frustration.
+
+**Reasons to return**
+- There is no visible link from trials to the squad. Auction purchases barely matter in L34-L42.
+- There are no Ghost Ladder, Kit Album or season-cup units.
+- Ch6 mostly repeats Ch3-5 verbs with higher numbers instead of adding one new idea (for example, a squad-vs-squad league trial or a ghost-gate defence puzzle).
+
+**Fixes**
+- Cap the grip at about 1.2.
+- Validate that 3★ is reachable.
+- Fold the duplicate lessons into combine trials.
+- Add one real new mode per chapter.

@@ -1,0 +1,12 @@
+L53 ghost duel — paced by the ghost's score (scripts/record-ghosts.ts)
+L54 g=1.09 s=0.68 w=1 casual 81% (aim 64%) skilled 95%
+L55 g=1.20 s=0.68 w=1 casual 95% (aim 46%) skilled 100%
+L56 g=1.32 s=0.69 w=1 casual 75% (aim 58%) skilled 94%
+L57 g=0.82 s=- w=1 casual 57% (aim 55%) skilled 73%
+L58 g=1.00 s=0.63 w=1 casual 53% (aim 52%) skilled 67%
+L59 g=1.00 s=0.69 w=1 casual 71% (aim 50%) skilled 87%
+L60 g=1.32 s=0.69 w=1 casual 81% (aim 48%) skilled 95%
+L61 g=0.92 s=- w=1 casual 51% (aim 50%) skilled 73%
+L62 g=1.06 s=0.69 w=1 casual 79% (aim 46%) skilled 97%
+L63 g=1.31 s=0.70 w=1 casual 74% (aim 62%) skilled 87%
+L64 g=1.10 s=0.66 w=1 casual 45% (aim 40%) skilled 61%

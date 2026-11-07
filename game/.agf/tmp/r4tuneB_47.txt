@@ -1,0 +1,20 @@
+L47 g=1.00 s=0.70 w=1 casual 82% mid 78% (aim 60%) skilled 92%
+L48 g=0.54 s=- w=1 casual 63% mid 68% (aim 64%) skilled 74%
+L49 g=0.15 s=- w=1 casual 63% mid 69% (aim 66%) skilled 71%
+L50 g=1.05 s=- w=1 casual 71% mid 81% (aim 62%) skilled 91%
+L51 g=1.00 s=0.67 w=1 casual 59% mid 77% (aim 66%) skilled 68%
+L52 g=1.00 s=0.65 w=1 casual 65% mid 60% (aim 62%) skilled 83%
+L53 ghost duel — paced by the ghost's score (scripts/record-ghosts.ts)
+L54 ghost duel — paced by the ghost's score (scripts/record-ghosts.ts)
+L55 g=1.46 s=0.68 w=1 casual 65% mid 72% (aim 57%) skilled 84%
+L56 g=1.29 s=0.54 w=1 casual 68% mid 79% (aim 62%) skilled 81%
+L57 g=0.66 s=- w=1 casual 61% mid 60% (aim 62%) skilled 75%
+L58 g=1.00 s=0.54 w=1 casual 61% mid 70% (aim 60%) skilled 85%
+L59 g=1.00 s=0.62 w=1 casual 75% mid 64% (aim 66%) skilled 91%
+L60 g=1.31 s=0.65 w=1 casual 56% mid 60% (aim 55%) skilled 75%
+L61 g=0.98 s=- w=1 casual 57% mid 54% (aim 62%) skilled 79%
+L62 g=1.30 s=0.65 w=1 casual 65% mid 68% (aim 56%) skilled 75%
+L63 g=1.29 s=0.44 w=1 casual 89% mid 96% (aim 70%) skilled 96%
+L64 g=1.32 s=0.68 w=1 casual 63% mid 65% (aim 60%) skilled 77%
+L65 g=1.10 s=0.66 w=1 casual 62% mid 60% (aim 60%) skilled 70%
+L66 g=1.31 s=0.69 w=1 casual 70% mid 77% (aim 56%) skilled 85%

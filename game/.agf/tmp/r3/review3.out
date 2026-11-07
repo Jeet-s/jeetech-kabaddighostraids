@@ -1,0 +1,78 @@
+PASS level_intents: all 66 levels have a specific intent
+PASS no_filler_levels: no trivial filler levels after the tutorial
+FAIL level_design: level-design review 7/10 (bar 8), 7 level(s) below 6/10: This is a thorough, readable, honest-odds kabaddi design. Every gem shows its real %, and each trial has a one-sentence "aha". The ghost-replay and auction pillars are the best parts of the genre fit. Execution has six recurring weaknesses.
+
+1. Counter-based design makes many touch choices dominated. Kick is the safest touch on every Rusher or captain mat (L23, 27, 32, 43, 49, 57, 60, 65, 66). Toe is much safer than Hand on a wall of Thigh-holders (L12). Dubki is the only sane way home against a Cage (L48, 53). When one option is strictly best, the trial is a lookup, not a decision.
+2. Several trials repeat an earlier one with new art: L2 repeats L1, L27 repeats L23, L43 repeats L23 and L32, L54 repeats L21 and L32, L63 repeats L51, and L47 repeats L26.
+3. The Ghost and Auction pillars are under-used. Ghost trials are static score targets or a scripted CPU plan, not async PvP. The auction only appears at L34 and L41–44, and its purchases don't carry into later trials.
+4. Data and intent disagree in places: L16 (counter numbers identical), L41 (purse never binds), L49 (low held % against a 68% mid-skill win rate), L51 (two-touch plan against a 1-touch raider), L56 (a "soft mat" with 37–56% held) and L60 (a third system).
+5. Difficulty is a plateau, not a curve. Chapters 5–6 sit at 60–72% for mid-skill players while spikes and bosses are sometimes easier than combines (L10, L66). Several breathers are tuned like normal trials.
+6. Some tuned outcomes depend too much on luck. Casual and skilled win rates are only 2–9 points apart on L36, L47 and L65, so skill barely matters there.
+
+The set is solid and above average in structure, but not yet at the level of EA SPORTS FC Mobile, Top Eleven or Cricket League. It is missing a visible upgrade and squad payoff and a live ghost and rival layer. Curve: Chapter 1 (L1–11) is good: it moves from reading a mat, to the way home, to greed, to the first defence, to struggle, then a match and a boss. Mid-skill win rates are 81–96%, which is a gentle onboarding. L1 to L3 spend three trials on one idea (read the gem, avoid the T). L10, the spike, is easier than L9, the combine.
+
+Chapter 2 (L12–22) adds a verb nearly every trial (Toe, A, Dubki and wall, Block, empties, Do-or-Die, bonus, revival). The load is acceptable and the breather at L21 is well placed. L16 is broken, and L21 is not really a breather at 85% mid-skill.
+
+Chapter 3 (L23–33) introduces Kick, Escape, Rush, Super Tackle, all-out, CPU Kick and scouting in 11 trials. The overall pace is fine, but L27 repeats L23 and L32 recycles the kick toy. L30 is the first big jump (mid-skill 65%).
+
+Chapter 4 (L34–44) is where the structure strains. The auction, the specialists and the Anchor are introduced as defence drills where specialist boosts of +3 to +5 points barely change decisions. Auction trials 41 and 44 are tuned around unclear purse math. Boss L44 has bonus held at 81%, so every raid fails.
+
+Chapters 5 and 6 (L45–66) are tuned as a plateau of roughly 60–72% mid-skill with 31–37/40 competent players. That is hard, and it is repetitive: Cage, Wall, Pincer, Diamond and ghost trials all ask for a safe Dubki, a Kick on the Rusher or captain, and a chain, with stricter odds. Fatigue and rotation arrive at L56, far too late given that stamina is a core stat. The final boss (L66) is easier than L60–62, so the climax doesn't peak.
+
+Return motivation is thin inside the content list. Squad building, upgrades, the Kit Album, ladder themes and ghosts live outside the 66 trials. The trials never show a stat or squad upgrade changing a later result, apart from the auction. For retention:
+- Make buying a player in the auction change the roster used in the next trials.
+- Give upgrades a visible effect on gems and hold odds.
+- Weave the ghost ladder, rival captains such as Arun, Sameer and Bholu, and weekly formation themes through chapters 3–6.
+- Add a replayable mode that lets players re-attempt boss reversals under new seeds.
+REDESIGN THESE LEVELS (keep the ones not listed):
+L16 (4/10): READ is wrong for the lesson: slots 2-6 show identical h35/t36, so 'Toe on a T, Hand on an A' makes no difference. Casual players can't tell the counter. 3-star play 'exactly one empty' also contradicts the intent that touching is risky. → Re-tune so counters differ by ~15 points (Toe on T ~20, Hand on A ~20, wrong move ~38) and make the empty-raid counter visible on the HUD.
+L27 (5/10): Same lesson as L23 (Kick the R's) with only the mat changed; Kick is dominant again. → Remove or turn into the Kick with a cost: charging Rushers only run into the Kick every other raid.
+L41 (5/10): Purse 74 vs max market (38+30 = 68) means you can always afford both, so 'don't overpay' is false; the Easy 0.12 raider makes the defence trivial, yet mid-skill is 69%. → Cut the purse to ~58 and inflate the Ankle Corner so the tradeoff is real.
+L43 (5/10): Fourth Kick-the-R's toy; 3★ not reached in testing (best 2★). → Replace it with a freestyle target-practice challenge or a new gimmick like mat-wide combos.
+L47 (5/10): Casual 65% vs skilled 67% means skill hardly matters; competent best 2★. Duplicates L26. → Remove or turn into a revival-defence trial with a clearer Dubki telegraph.
+L50 (5/10): It is scripted: the first close call is always 'very tight' and wrong, which teaches false odds; DRS exists in the UI from the start but arrives at L50. → Randomise the first call within the stated odds and introduce DRS in chapter 2.
+L54 (5/10): Same format as L21 and L32 (4 raids vs a number); best 2★. → Show Arun's real replay and let the player pick the mat theme.
+L2 (6/10): Same lesson as L1 (find the low % gem) with a different layout; the T-T-o-o-T-T-T layout has no new verb. → Fold into L1 or give it a new angle: neighbour danger spreading (touch slot 3 vs slot 4 differ) so 'gap' is a real concept.
+L6 (6/10): Near-clone of L4 with the Ankle option removed; the 82/100/55 ring numbers are abstract, and ankle/thigh gems repeat L4. → Merge cover-ring teaching into L4 or make L6 use a raider who switches between two targets so cover choice matters visibly.
+L10 (6/10): Mid-skill 85% is higher than L9 (84%) and casual = skilled (85/85), so it is not a spike and skill barely matters. → Tighten to 10-13 with an Easy+ captain, or add a Do-or-Die in raid 3 to create real pressure.
+L12 (6/10): Toe at 2-3% held vs Hand 14-18% means Toe strictly dominates with no downside; the 'choose the move' lesson is solved by one rule. → Give Toe a cost (lower reach, or a rookie-only wasted-touch gap) or give some slot a Toe-risk so the decision is not binary.
+L21 (6/10): It is a score chase against a number, not a visible ghost; the pillar of async PvP gets its first and only intro this late and mid-skill 85% is not a breather. → Show the ghost's replay path alongside yours and introduce Ghost Lab at L8–10.
+L24 (6/10): The READ shows 44/44 at the start, so the lunge/pull lesson isn't visible; mid-skill 76% on a hold-forced drill is frustrating. → Show the lunge/pull % by touches made, and tune the mat so each raid is held 40-50%.
+L32 (6/10): Third Kick-the-Rusher toy; 'beat 3 points in 4 raids' is trivial and the ghost is static. → Add Sameer's actual replay so rivals feel alive; raise the ghost target to 5.
+L35 (6/10): Specialist ×1.25 changes the stop % by only ~3 points (57 vs 54), and only corner slots matter; the lesson is invisible. Competent only 33/40. → Raise the specialist bonus to ×1.5 or draw the boosted % on the gem.
+L36 (6/10): Casual 75% vs skilled 79%: the outcome is mostly RNG; the ×1.15 boost is subtle. → Make the Anchor visibly decisive (ring-based ×1.4) and reduce the variance.
+L49 (6/10): READ values 4-14% held don't match mid-skill 68%; the Pincer doesn't squeeze the bonus line as claimed. → Raise corner/R held values near the bonus and show the bonus risk in the READ.
+L51 (6/10): The plan lists a two-touch raid but the raider is 'up to 1 touch'; competent only 31/40 with a known plan is odd; it's a CPU plan, not a real ghost gate. → Fix the touch cap and hook real recorded ghost plans from the ladder.
+L56 (6/10): A 'soft mat' with 37-56% held touches and pull at 47% is not soft; fatigue arrives in chapter 6 though stamina is core from L7. → Introduce stamina by L24 and lower the grip.
+L57 (6/10): Another Kick-is-safest lesson; Kick lands only 2/3 in L65 but not mentioned here. → Give the captain a unique weakness lesson (not another Kick) and state the landing rate.
+L60 (6/10): Called 'two systems' but also has feints (a third); casual 55% and competent 31/40 are a cliff. → Remove feints and tune to ~70% mid-skill.
+L62 (6/10): Dash at 89% is a fake option; the wall repeats L14; start 9-11 down at mid 62% with single points paying poorly. → Remove the dash gem on this mat or give it a use; lower the deficit.
+L63 (6/10): Repeats L46/L51 (known plan, chain); 'concede ≤1' is not a breather. → Relax to concede ≤2 and give a unique legend moment.
+L1 (7/10): Coach-walked first raid and a 96% win rate make it a pure tutorial; the 'aha' is just 'don't tap the highlighted-high number'. → Make the T the visually tempting centre target and add a star for 'touch a rookie on your first free raid' to prove the read was understood.
+L3 (7/10): Dash is never taught in L1–2 and 'optimal moves > search cap' with mid-skill 89% means little tension; Dash at 7% vs walk 18% makes Dash dominant with no downside. → Give the Dash a cost (a Blocker or reaction window) later, or show a case where the walk is better.
+
+level-design score 7/10 — This is a thorough, readable, honest-odds kabaddi design. Every gem shows its real %, and each trial has a one-sentence "aha". The ghost-replay and auction pillars are the best parts of the genre fit. Execution has six recurring weaknesses.
+
+1. Counter-based design makes many touch choices dominated. Kick is the safest touch on every Rusher or captain mat (L23, 27, 32, 43, 49, 57, 60, 65, 66). Toe is much safer than Hand on a wall of Thigh-holders (L12). Dubki is the only sane way home against a Cage (L48, 53). When one option is strictly best, the trial is a lookup, not a decision.
+2. Several trials repeat an earlier one with new art: L2 repeats L1, L27 repeats L23, L43 repeats L23 and L32, L54 repeats L21 and L32, L63 repeats L51, and L47 repeats L26.
+3. The Ghost and Auction pillars are under-used. Ghost trials are static score targets or a scripted CPU plan, not async PvP. The auction only appears at L34 and L41–44, and its purchases don't carry into later trials.
+4. Data and intent disagree in places: L16 (counter numbers identical), L41 (purse never binds), L49 (low held % against a 68% mid-skill win rate), L51 (two-touch plan against a 1-touch raider), L56 (a "soft mat" with 37–56% held) and L60 (a third system).
+5. Difficulty is a plateau, not a curve. Chapters 5–6 sit at 60–72% for mid-skill players while spikes and bosses are sometimes easier than combines (L10, L66). Several breathers are tuned like normal trials.
+6. Some tuned outcomes depend too much on luck. Casual and skilled win rates are only 2–9 points apart on L36, L47 and L65, so skill barely matters there.
+
+The set is solid and above average in structure, but not yet at the level of EA SPORTS FC Mobile, Top Eleven or Cricket League. It is missing a visible upgrade and squad payoff and a live ghost and rival layer.
+curve: Chapter 1 (L1–11) is good: it moves from reading a mat, to the way home, to greed, to the first defence, to struggle, then a match and a boss. Mid-skill win rates are 81–96%, which is a gentle onboarding. L1 to L3 spend three trials on one idea (read the gem, avoid the T). L10, the spike, is easier than L9, the combine.
+
+Chapter 2 (L12–22) adds a verb nearly every trial (Toe, A, Dubki and wall, Block, empties, Do-or-Die, bonus, revival). The load is acceptable and the breather at L21 is well placed. L16 is broken, and L21 is not really a breather at 85% mid-skill.
+
+Chapter 3 (L23–33) introduces Kick, Escape, Rush, Super Tackle, all-out, CPU Kick and scouting in 11 trials. The overall pace is fine, but L27 repeats L23 and L32 recycles the kick toy. L30 is the first big jump (mid-skill 65%).
+
+Chapter 4 (L34–44) is where the structure strains. The auction, the specialists and the Anchor are introduced as defence drills where specialist boosts of +3 to +5 points barely change decisions. Auction trials 41 and 44 are tuned around unclear purse math. Boss L44 has bonus held at 81%, so every raid fails.
+
+Chapters 5 and 6 (L45–66) are tuned as a plateau of roughly 60–72% mid-skill with 31–37/40 competent players. That is hard, and it is repetitive: Cage, Wall, Pincer, Diamond and ghost trials all ask for a safe Dubki, a Kick on the Rusher or captain, and a chain, with stricter odds. Fatigue and rotation arrive at L56, far too late given that stamina is a core stat. The final boss (L66) is easier than L60–62, so the climax doesn't peak.
+
+Return motivation is thin inside the content list. Squad building, upgrades, the Kit Album, ladder themes and ghosts live outside the 66 trials. The trials never show a stat or squad upgrade changing a later result, apart from the auction. For retention:
+- Make buying a player in the auction change the roster used in the next trials.
+- Give upgrades a visible effect on gems and hold odds.
+- Weave the ghost ladder, rival captains such as Arun, Sameer and Bholu, and weekly formation themes through chapters 3–6.
+- Add a replayable mode that lets players re-attempt boss reversals under new seeds.

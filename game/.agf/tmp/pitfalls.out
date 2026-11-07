@@ -1,0 +1,6 @@
+
+> game-runtime-rn@1.0.0 pitfalls
+> tsx scripts/pitfalls.ts
+
+{"errors":0,"warnings":0}
+pitfalls exit 0

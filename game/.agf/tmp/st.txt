@@ -1,0 +1,3 @@
+L63 Lap of Honour: wins 36/40 | Chain him within his first 2 raids 36 | Concede nothing 32 | goal {"maxOpp":1,"need":{"chain":1}}
+L66 World Final: wins 31/40 | Win by 4 25 | Two chain tackles 21 | goal {"margin":2}
+L53 Ghost Duel: Cage: wins 38/40 | Beat the ghost by 2 (7 points) 2 | Never get caught 11 | goal {"ghost":true,"maxCaught":3}

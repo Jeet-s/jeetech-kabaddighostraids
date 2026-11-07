@@ -1,0 +1,2 @@
+L38 g=0.98 s=0.58 w=1 casual 83% mid 80% (aim 72%) skilled 95%
+L38 g=0.98 s=0.58 w=1 casual 83% mid 80% (aim 72%) skilled 95%

@@ -1,0 +1,6 @@
+L8 g=0.756 casual 91% (aim 90%) skilled 95%
+L9 g=0.643 casual 81% (aim 82%) skilled 83%
+L10 g=0.226 casual 77% (aim 72%) skilled 81%
+L11 g=2.196 casual 75% (aim 74%) skilled 91%
+L12 g=0.302 casual 87% (aim 86%) skilled 97%
+L13 g=0.491 casual 79% (aim 80%) skilled 88%
